@@ -21,7 +21,7 @@ set :use_sudo, false
 set :user, "deployer"
 
 # Others
-set :copy_exclude, %w{ README.md }
+set :copy_exclude, %w{ .gitignore README.md }
 
 # Custom recipes
 namespace :wordpress do
