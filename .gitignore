@@ -2,3 +2,8 @@ REVISION
 wp-config-production.php
 wp-content/uploads
 wp-content/cache
+wp-content/themes/twentyfifteen/genericons/README.md
+wp-content/themes/wordpress-bootstrap/README.md
+wp-content/themes/wordpress-bootstrap/bower_components/bootstrap/README.md
+wp-content/themes/wordpress-bootstrap/bower_components/font-awesome/.gitignore
+wp-content/themes/wordpress-bootstrap/bower_components/modernizer/.gitignore
