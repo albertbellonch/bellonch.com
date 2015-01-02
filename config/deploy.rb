@@ -31,6 +31,12 @@ namespace :wordpress do
         run "ln -nfs #{shared_path}/cache #{release_path}/wp-content/cache"
         run "ln -nfs #{shared_path}/wp-config-production.php #{release_path}/wp-config-production.php"
     end
+
+    desc "Checkout original .gitignore"
+    task :checkout_gitignore, roles: :app do
+        run "cd #{release_path}; git checkout .gitignore"
+    end
 end
 
 after "deploy:create_symlink", "wordpress:create_symlinks"
+after "deploy:checkout_gitignore", "wordpress:checkout_gitignore"
