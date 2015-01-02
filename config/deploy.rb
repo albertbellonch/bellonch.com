@@ -28,6 +28,7 @@ namespace :wordpress do
     desc "Setup symlinks for a WordPress project"
     task :create_symlinks, roles: :app do
         run "ln -nfs #{shared_path}/uploads #{release_path}/wp-content/uploads"
+        run "ln -nfs #{shared_path}/cache #{release_path}/wp-content/cache"
         run "ln -nfs #{shared_path}/wp-config-production.php #{release_path}/wp-config-production.php"
     end
 end
