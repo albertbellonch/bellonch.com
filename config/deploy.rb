@@ -32,11 +32,20 @@ namespace :wordpress do
         run "ln -nfs #{shared_path}/wp-config-production.php #{release_path}/wp-config-production.php"
     end
 
-    desc "Checkout original .gitignore"
-    task :checkout_gitignore, roles: :app do
-        run "cd #{release_path}; git checkout .gitignore"
+    desc "Checkout original files" # TODO solve it for real
+    task :checkout_original_files, roles: :app do
+        %w{
+          .gitignore
+          wp-content/themes/twentyfifteen/genericons/README.md
+          wp-content/themes/wordpress-bootstrap/README.md
+          wp-content/themes/wordpress-bootstrap/bower_components/bootstrap/README.md
+          wp-content/themes/wordpress-bootstrap/bower_components/font-awesome/.gitignore
+          wp-content/themes/wordpress-bootstrap/bower_components/modernizer/.gitignore
+        }.each do |filename|
+          run "cd #{release_path}; git checkout #{filename}"
+        end
     end
 end
 
 after "deploy:create_symlink", "wordpress:create_symlinks"
-after "deploy:create_symlink", "wordpress:checkout_gitignore"
+after "deploy:create_symlink", "wordpress:checkout_original_files"
