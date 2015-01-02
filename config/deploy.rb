@@ -39,4 +39,4 @@ namespace :wordpress do
 end
 
 after "deploy:create_symlink", "wordpress:create_symlinks"
-after "deploy:checkout_gitignore", "wordpress:checkout_gitignore"
+after "deploy:create_symlink", "wordpress:checkout_gitignore"
