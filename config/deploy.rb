@@ -23,5 +23,5 @@ role :web, "moroder.bellonch.com"
 # Recipes
 after "deploy:create_symlink" do
   run "rm -rf #{release_path}/config #{release_path}/Capfile"
-  run "cd #{release_path} && jekyll build"
+  run "cd #{release_path} && jekyll build --config _config_production.yml"
 end
