@@ -4,6 +4,7 @@ email: albert@bellonch.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://bellonch.com" # the base hostname & protocol for your site
+permalink: /:title
 twitter_username: abellonch
 github_username: albertbellonch
 
