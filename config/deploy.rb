@@ -2,6 +2,7 @@
 set :application, "bellonch.com"
 set :keep_releases, 5
 set :deploy_to, "/var/www/html/jekyll/bellonch.com"
+set :normalize_asset_timestamps, false
 
 # Stages
 set :stages, %w(production)
