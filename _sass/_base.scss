@@ -80,7 +80,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
+    
 }
 
 
@@ -89,16 +89,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: inherit;
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: inherit;
     }
 
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        color: inherit;
     }
 }
 
@@ -154,8 +153,6 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
@@ -167,6 +164,20 @@ pre {
         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
+    }
+}
+@media screen and (min-width: 900px){
+    .post{
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 18px;
+        img{
+            margin-left: -15%;
+            min-width: 130%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
     }
 }
 
@@ -201,4 +212,52 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+/**
+ * Fonts
+ */
+@font-face {
+    font-family: 'akzidenz-grotesk';
+    src: url('/assets/fonts/ag/akzidenz_grotesk_black-webfont.eot');
+    src: url('/assets/fonts/ag/akzidenz_grotesk_black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/ag/akzidenz_grotesk_black-webfont.woff2') format('woff2'),
+         url('/assets/fonts/ag/akzidenz_grotesk_black-webfont.woff') format('woff'),
+         url('/assets/fonts/ag/akzidenz_grotesk_black-webfont.ttf') format('truetype'),
+         url('/assets/fonts/ag/akzidenz_grotesk_black-webfont.svg#akzidenzgroteskregular') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk';
+    src: url('/assets/fonts/ag/akzidenz_grotesk_roman-webfont.eot');
+    src: url('/assets/fonts/ag/akzidenz_grotesk_roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/ag/akzidenz_grotesk_roman-webfont.woff2') format('woff2'),
+         url('/assets/fonts/ag/akzidenz_grotesk_roman-webfont.woff') format('woff'),
+         url('/assets/fonts/ag/akzidenz_grotesk_roman-webfont.ttf') format('truetype'),
+         url('/assets/fonts/ag/akzidenz_grotesk_roman-webfont.svg#akzidenzgroteskregular') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk';
+    src: url('/assets/fonts/ag/akzidenz_grotesk_light-webfont.eot');
+    src: url('/assets/fonts/ag/akzidenz_grotesk_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/ag/akzidenz_grotesk_light-webfont.woff2') format('woff2'),
+         url('/assets/fonts/ag/akzidenz_grotesk_light-webfont.woff') format('woff'),
+         url('/assets/fonts/ag/akzidenz_grotesk_light-webfont.ttf') format('truetype'),
+         url('/assets/fonts/ag/akzidenz_grotesk_light-webfont.svg#akzidenzgroteskregular') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk';
+    src: url('/assets/fonts/ag/akzidenz_grotesk_bold-webfont.eot');
+    src: url('/assets/fonts/ag/akzidenz_grotesk_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/ag/akzidenz_grotesk_bold-webfont.woff2') format('woff2'),
+         url('/assets/fonts/ag/akzidenz_grotesk_bold-webfont.woff') format('woff'),
+         url('/assets/fonts/ag/akzidenz_grotesk_bold-webfont.ttf') format('truetype'),
+         url('/assets/fonts/ag/akzidenz_grotesk_bold-webfont.svg#akzidenzgroteskregular') format('svg');
+    font-weight: 700;
+    font-style: normal;
 }
