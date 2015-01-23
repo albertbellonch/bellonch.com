@@ -53,8 +53,13 @@ $on-laptop:        800px;
 
 // Home
 
-.layout_default{
+.layout_home{
     background-color: #eee;
+}
+.site-title{
+    font-family: 'harriet-display';
+    font-size: 21px;
+    font-weight: 700;
 }
 .main-intro{
     max-width: 670px;
@@ -62,7 +67,22 @@ $on-laptop:        800px;
         font-weight: 300;
         font-size: 30px;
         a{
-            background-color: white;
+            border-bottom: 1px solid #aaa;
         }
     }
+}
+.articles-bar{
+    @media screen and(min-width: 992px){
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: 20%;
+    }
+    background-color: white;
+}
+.articles-title{
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 56px;
 }

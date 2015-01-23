@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="{% body_class %}">
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+    {% include analytics.html %}
+
+    <div class="articles-bar">
+      <h2 class="articles-title">
+        thoughts
+      </h2>
+    </div>
+
+  </body>
+
+</html>
