@@ -50,3 +50,19 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+// Home
+
+.layout_default{
+    background-color: #eee;
+}
+.main-intro{
+    max-width: 670px;
+    h1{
+        font-weight: 300;
+        font-size: 30px;
+        a{
+            background-color: white;
+        }
+    }
+}
