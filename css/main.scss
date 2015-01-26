@@ -20,6 +20,7 @@ $brand-color:      #2a7ae2;
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+$link-color:       #ce0000;
 
 // Width of the content area
 $content-width:    800px;
@@ -42,7 +43,13 @@ $on-laptop:        800px;
     }
 }
 
-
+@mixin transition($transition-property, $transition-time, $method) {
+    -webkit-transition: $transition-property $transition-time $method;
+    -moz-transition: $transition-property $transition-time $method;
+    -ms-transition: $transition-property $transition-time $method;
+    -o-transition: $transition-property $transition-time $method;
+    transition: $transition-property $transition-time $method;
+}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
@@ -56,22 +63,37 @@ $on-laptop:        800px;
 .layout_home{
     background-color: #eee;
 }
+.site-header{
+    padding: 18px 0;
+}
 .site-title{
     font-family: 'harriet-display';
     font-size: 21px;
     font-weight: 700;
+    color: $text-color;
+    &:hover{
+        color: $text-color;
+    }
 }
 .main-intro{
     max-width: 670px;
     h1{
         font-weight: 300;
         font-size: 30px;
+        @include media-query($on-palm){
+            font-size: 24px;
+        }
         a{
             border-bottom: 1px solid #aaa;
+            color: $text-color;
         }
     }
 }
 .articles-bar{
+    color: #999;
+    border-left: 1px solid #ccc;
+    padding: 0 30px;
+    @include transition(all, 0.4s, ease-in-out);
     @media screen and(min-width: 992px){
         position: absolute;
         right: 0;
@@ -79,10 +101,75 @@ $on-laptop:        800px;
         height: 100%;
         width: 20%;
     }
-    background-color: white;
+    .post-list{
+        margin-top: 40px;
+    }
+    .post{
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 0;
+        @include transition(all, 0.2s, ease-in-out);
+        a{
+            color: #999;
+            &:hover{
+                color: $text-color;
+            }
+        }
+    }
+    .post-title{
+        font-size: 21px;
+        line-height: 1.4;
+    }
+    .more-link{
+        font-size: 42px;
+        line-height: 10px;
+        font-family: 'harriet-display';
+        color: #999;
+        &:hover{
+            color: $text-color;
+        }
+    }
+    &:hover{
+        background-color: white;
+        .articles-title a{
+            color: $text-color;
+        }
+    }
+    .articles-title a{
+        display: block;
+        font-size: 21px;
+        font-weight: 700;
+        padding: 18px 0;
+        @include transition(all, 0.2s, ease-in-out);
+    }
 }
-.articles-title{
-    font-size: 21px;
-    font-weight: 700;
-    line-height: 56px;
+.articles{
+    .post-list{
+        max-width: 670px;
+    }
+    .post-excerpt{
+        *{
+            font-family: 'akzidenz-grotesk' !important;
+            font-weight: normal;
+        }
+    }
+}
+.social-media-list{
+    margin-bottom: 0;
+    .list-item{
+        display: inline-block;
+        padding-right: 5px;
+    }
+    .icon > svg{
+        width: 24px;
+        height: 24px;
+    }
+    .contact-email{
+        color: #828282;
+        margin-left: 15px;
+    }
+}
+.post-list{
+    .post-link{
+        color: $text-color;
+    }
 }

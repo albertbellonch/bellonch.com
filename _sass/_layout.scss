@@ -2,14 +2,11 @@
  * Site header
  */
 .site-header {
-    min-height: 56px;
-
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
-.site-title {
-    line-height: 56px;
+.site-title { 
     margin-bottom: 0;
     float: left;
 }
@@ -171,9 +168,8 @@
 
 .post-meta {
     font-size: $small-font-size;
-    color: $grey-color;
     text-transform: uppercase;
-    letter-spacing: 0.2em;
+    letter-spacing: 1px;
     font-weight: 700;
 }
 
