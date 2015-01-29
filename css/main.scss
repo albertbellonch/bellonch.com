@@ -51,6 +51,22 @@ $on-laptop:        800px;
     transition: $transition-property $transition-time $method;
 }
 
+// keyframes mixin
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content; 
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-ms-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  } 
+}
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
@@ -60,8 +76,30 @@ $on-laptop:        800px;
 
 // Home
 
-.layout_home{
-    background-color: #eee;
+.layout_home{ 
+    overflow: hidden;
+    -webkit-animation: bgcolor 7s infinite;
+    animation: bgcolor 7s infinite;
+    .site-footer{
+        border: 0;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+    }
+    .footer-wrapper{
+        width: 35%;
+    }
+}
+@include keyframes(bgcolor) {
+  0% {
+    background-color: #C8F5FF;
+  }
+  50% {
+    background-color: #C8FFED;
+  }
+  100% {
+    background-color: #C8F5FF;
+  } 
 }
 .site-header{
     padding: 18px 0;
@@ -76,22 +114,37 @@ $on-laptop:        800px;
     }
 }
 .main-intro{
-    max-width: 670px;
+    position: relative;
     h1{
+        max-width: 670px;
         font-weight: 300;
         font-size: 30px;
         @include media-query($on-palm){
             font-size: 24px;
         }
         a{
-            border-bottom: 1px solid #aaa;
+            border-bottom: 1px solid rgba(0,0,0, 0.5);
             color: $text-color;
+            img{
+                position: absolute;
+                top: 150px;
+                left: 530px;
+                opacity: 0;
+                width: 500px;
+                z-index: -1000;
+                @include transition(all, 0.4s, ease-in-out);
+            }
+            &:hover{
+                img{
+                    opacity: 0.7;
+                }
+            }   
         }
     }
 }
 .articles-bar{
-    color: #999;
-    border-left: 1px solid #ccc;
+    color: rgba(0,0,0, 0.5);
+    border-left: 1px solid rgba(0,0,0, 0.1);
     padding: 0 30px;
     @include transition(all, 0.4s, ease-in-out);
     @media screen and(min-width: 992px){
@@ -101,15 +154,18 @@ $on-laptop:        800px;
         height: 100%;
         width: 20%;
     }
+    .articles-title a{
+        color: rgba(0,0,0, 0.5);
+    }
     .post-list{
         margin-top: 40px;
     }
     .post{
-        border-bottom: 1px solid #ccc;
+        border-bottom: 1px solid rgba(0,0,0, 0.1);
         margin-bottom: 0;
         @include transition(all, 0.2s, ease-in-out);
         a{
-            color: #999;
+            color: rgba(0,0,0, 0.5);
             &:hover{
                 color: $text-color;
             }
@@ -123,13 +179,14 @@ $on-laptop:        800px;
         font-size: 42px;
         line-height: 10px;
         font-family: 'harriet-display';
-        color: #999;
+        color: rgba(0,0,0, 0.2);
         &:hover{
             color: $text-color;
         }
     }
     &:hover{
         background-color: white;
+        border-color: transparent;
         .articles-title a{
             color: $text-color;
         }
@@ -158,13 +215,26 @@ $on-laptop:        800px;
     .list-item{
         display: inline-block;
         padding-right: 5px;
+        color: rgba(0,0,0, 0.5);
+        &.designer{
+            float: right;
+            a{
+                border-bottom: 1px solid rgba(0,0,0, 0.2);
+                padding-bottom: 3px;
+            }
+        }
+        a{
+            color: inherit;
+        }
     }
     .icon > svg{
         width: 24px;
         height: 24px;
+        path{
+            fill: rgba(0,0,0, 0.5);
+        }
     }
     .contact-email{
-        color: #828282;
         margin-left: 15px;
     }
 }
@@ -172,4 +242,7 @@ $on-laptop:        800px;
     .post-link{
         color: $text-color;
     }
+}
+.red{
+    background-color: blue;
 }
