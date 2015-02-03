@@ -77,17 +77,19 @@ $on-laptop:        800px;
 // Home
 
 .layout_home{ 
-    overflow: hidden;
     -webkit-animation: bgcolor 7s infinite;
     animation: bgcolor 7s infinite;
-    .site-footer{
-        border: 0;
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-    }
-    .footer-wrapper{
-        width: 35%;
+    @media screen and(min-width: 992px){
+        overflow: hidden;
+        .site-footer{
+            border: 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+        .footer-wrapper{
+            width: 35%;
+        }
     }
 }
 @include keyframes(bgcolor) {
