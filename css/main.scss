@@ -210,45 +210,47 @@ $on-laptop:        800px;
         }
     }
 }
-.social-media-list{
-    margin-bottom: 0;
-    .list-item{
-        display: inline-block;
-        padding-right: 5px;
-        color: rgba(0,0,0, 0.5);
-        &.designer{
-            float: right;
-            a{
-                border-bottom: 1px solid rgba(0,0,0, 0.2);
-                padding-bottom: 3px;
-            }
-        }
-        a{
-            color: inherit;
-        }
-    }
-    .icon > svg{
-        width: 24px;
-        height: 24px;
-        path{
-            fill: rgba(0,0,0, 0.5);
-            @include transition(all, 0.2s, ease-in-out);
-        }
+footer{
+    color: transparentize($text-color, 0.5);
+    a{
+        color: transparentize($text-color, 0.5);
         &:hover{
-            path{
-                fill: rgba(0,0,0, 0.8);
-            }
+            color: $text-color;
         }
     }
-    .contact-email{
-        margin-left: 15px;
+    .social-media-list{
+        margin-bottom: 0;
+        .list-item{
+            display: inline-block;
+            padding-right: 5px;
+            &.designer{
+                float: right;
+                a{
+                    border-bottom: 1px solid rgba(0,0,0, 0.2);
+                    padding-bottom: 3px;
+                }
+            }
+        }
+        .icon > svg{
+            width: 24px;
+            height: 24px;
+            path{
+                fill: rgba(0,0,0, 0.5);
+                @include transition(all, 0.2s, ease-in-out);
+            }
+            &:hover{
+                path{
+                    fill: rgba(0,0,0, 0.8);
+                }
+            }
+        }
+        .contact-email{
+            margin-left: 15px;
+        }
     }
 }
 .post-list{
     .post-link{
         color: $text-color;
     }
-}
-.red{
-    background-color: blue;
 }
