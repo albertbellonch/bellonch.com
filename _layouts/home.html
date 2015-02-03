@@ -1,45 +1,31 @@
-<!DOCTYPE html>
-<html>
+---
+layout: base
+class: home_page
+---
+<div class="page-content">
+  <div class="wrapper">
+    {{ content }}
+  </div>
+</div>
 
-  {% include head.html %}
+<div class="articles-bar">
+  <h2 class="articles-title">
+    <a href="/articles">
+      / thoughts
+    </a>
+  </h2>
+  <ul class="post-list">
+    {% for post in site.posts limit:5 %}
+      <li class="post">
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-  <body class="{% body_class %}">
-
-    {% include header.html %}
-
-    <div id="main">
-      <div class="page-content">
-        <div class="wrapper">
-          {{ content }}
-        </div>
-      </div>
-
-      <div class="articles-bar">
-        <h2 class="articles-title">
-          <a href="/articles">
-            / thoughts
-          </a>
+        <h2 class="post-title">
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-        <ul class="post-list">
-          {% for post in site.posts limit:5 %}
-            <li class="post">
-              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-              <h2 class="post-title">
-                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-              </h2>
-            </li>
-          {% endfor %}
-        </ul>
-        <div class="more-posts">
-          <a class="more-link" href="/articles">...</a>
-        </div>
-      </div>
-    </div>
-
-    {% include footer.html %}
-    {% include javascript.html %}
-    {% include analytics.html %}
-  </body>
-
-</html>
+      </li>
+    {% endfor %}
+  </ul>
+  <div class="more-posts">
+    <a class="more-link" href="/articles">...</a>
+  </div>
+</div>

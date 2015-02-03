@@ -54,7 +54,7 @@ $on-laptop:        800px;
 // keyframes mixin
 @mixin keyframes($name) {
   @-webkit-keyframes #{$name} {
-    @content; 
+    @content;
   }
   @-moz-keyframes #{$name} {
     @content;
@@ -64,7 +64,7 @@ $on-laptop:        800px;
   }
   @keyframes #{$name} {
     @content;
-  } 
+  }
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
@@ -76,7 +76,7 @@ $on-laptop:        800px;
 
 // Home
 
-.layout_home{ 
+body.home_page{
     -webkit-animation: bgcolor 7s infinite;
     animation: bgcolor 7s infinite;
     @media screen and(min-width: 992px){
@@ -101,7 +101,7 @@ $on-laptop:        800px;
   }
   100% {
     background-color: #C8F5FF;
-  } 
+  }
 }
 .site-header{
     padding: 18px 0;
@@ -140,7 +140,7 @@ $on-laptop:        800px;
                 img{
                     opacity: 0.7;
                 }
-            }   
+            }
         }
     }
 }

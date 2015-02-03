@@ -1,4 +1,4 @@
-class BodyClassTag < Liquid::Tag  
+class BodyClassTag < Liquid::Tag
 
   def generate_body_class(prefix, id)
     id = id.gsub(/\.\w*?$/, '').gsub(/[-\/]/, '_').gsub(/^_/, '') # Remove extension from url, replace '-' and '/' with underscore, Remove leading '_'
