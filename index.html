@@ -1,23 +1,33 @@
 ---
-layout: default
+layout: home
 ---
 
 <div class="home">
+  
+  <div class="home-bg-image">
+    <img src="/assets/images/albert-bellonch.png">
+  </div>
 
-  <h1 class="page-heading">Posts</h1>
+  <div class="main-intro">
+    <h1>
+      — I’m a Computer Science Engineer from Barcelona.
+      After studying abroad for year and a half, I helped starting
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <a href="http://itnig.net/en" target="blank">
+      itnig<img src="/assets/images/itnig-logo.svg"></a>,
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+      an internet startup accelerator. Afterwards I founded
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      <a href="https://getquipu.com/en" target="blank">
+        Quipu<img src="/assets/images/quipu-logo.svg"></a>,
+
+      an online invoicing software for freelancers and SMEs. Lately I also teach and mentor at
+
+      <a href="http://ironhack.com/en" target="blank">
+        Ironhack<img src="/assets/images/ironhack-logo.svg"></a>,
+
+      an intensive bootcamp for developers.
+    </h1>
+  </div>
 
 </div>

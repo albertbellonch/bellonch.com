@@ -6,9 +6,9 @@
 
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: 'akzidenz-grotesk', Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
+$small-font-size:  $base-font-size * 0.75;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
@@ -20,6 +20,7 @@ $brand-color:      #2a7ae2;
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+$link-color:       #ce0000;
 
 // Width of the content area
 $content-width:    800px;
@@ -42,7 +43,29 @@ $on-laptop:        800px;
     }
 }
 
+@mixin transition($transition-property, $transition-time, $method) {
+    -webkit-transition: $transition-property $transition-time $method;
+    -moz-transition: $transition-property $transition-time $method;
+    -ms-transition: $transition-property $transition-time $method;
+    -o-transition: $transition-property $transition-time $method;
+    transition: $transition-property $transition-time $method;
+}
 
+// keyframes mixin
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-ms-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  }
+}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
@@ -50,3 +73,192 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+// Home
+
+body.home_page{
+    -webkit-animation: bgcolor 7s infinite;
+    animation: bgcolor 7s infinite;
+    @media screen and(min-width: 992px){
+        overflow: hidden;
+        .site-footer{
+            border: 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+        .footer-wrapper{
+            width: 35%;
+        }
+    }
+}
+@include keyframes(bgcolor) {
+  0% {
+    background-color: #C8F5FF;
+  }
+  50% {
+    background-color: #C8FFED;
+  }
+  100% {
+    background-color: #C8F5FF;
+  }
+}
+.site-header{
+    padding: 18px 0;
+}
+.site-title{
+    font-family: 'harriet-display';
+    font-size: 21px;
+    font-weight: 700;
+    color: $text-color;
+    &:hover{
+        color: $text-color;
+    }
+}
+.home-bg-image{
+    position: absolute;
+    right: 22%;
+    top: 10px;
+    opacity: 0.4;
+}
+.main-intro{
+    position: relative;
+    h1{
+        max-width: 670px;
+        font-weight: 300;
+        font-size: 30px;
+        @include media-query($on-palm){
+            font-size: 24px;
+        }
+        a{
+            border-bottom: 1px solid rgba(0,0,0, 0.5);
+            color: $text-color;
+            img{
+                position: absolute;
+                top: 150px;
+                left: 530px;
+                opacity: 0;
+                width: 500px;
+                z-index: -1000;
+                @include transition(all, 0.4s, ease-in-out);
+            }
+            &:hover{
+                img{
+                    opacity: 0.7;
+                }
+            }
+        }
+    }
+}
+.articles-bar{
+    color: rgba(0,0,0, 0.5);
+    border-left: 1px solid rgba(0,0,0, 0.1);
+    padding: 0 30px;
+    @include transition(all, 0.4s, ease-in-out);
+    @media screen and(min-width: 992px){
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: 20%;
+    }
+    .articles-title a{
+        color: rgba(0,0,0, 0.5);
+    }
+    .post-list{
+        margin-top: 40px;
+    }
+    .post{
+        border-bottom: 1px solid rgba(0,0,0, 0.1);
+        margin-bottom: 0;
+        @include transition(all, 0.2s, ease-in-out);
+        a{
+            color: rgba(0,0,0, 0.5);
+            &:hover{
+                color: $text-color;
+            }
+        }
+    }
+    .post-title{
+        font-size: 21px;
+        line-height: 1.4;
+    }
+    .more-link{
+        font-size: 42px;
+        line-height: 10px;
+        font-family: 'harriet-display';
+        color: rgba(0,0,0, 0.2);
+        &:hover{
+            color: $text-color;
+        }
+    }
+    &:hover{
+        background-color: white;
+        border-color: transparent;
+        .articles-title a{
+            color: $text-color;
+        }
+    }
+    .articles-title a{
+        display: block;
+        font-size: 21px;
+        font-weight: 700;
+        padding: 18px 0;
+        @include transition(all, 0.2s, ease-in-out);
+    }
+}
+.articles{
+    .post-list{
+        max-width: 670px;
+    }
+    .post-excerpt{
+        *{
+            font-family: 'akzidenz-grotesk' !important;
+            font-weight: normal;
+        }
+    }
+}
+footer{
+    color: transparentize($text-color, 0.5);
+    a{
+        color: transparentize($text-color, 0.5);
+        &:hover{
+            color: $text-color;
+        }
+    }
+    .social-media-list{
+        margin-bottom: 0;
+        .list-item{
+            display: inline-block;
+            padding-right: 5px;
+            &.designer{
+                float: right;
+                a{
+                    border-bottom: 1px solid rgba(0,0,0, 0.2);
+                    padding-bottom: 3px;
+                }
+            }
+        }
+        .icon > svg{
+            width: 24px;
+            height: 24px;
+            path{
+                fill: rgba(0,0,0, 0.5);
+                @include transition(all, 0.2s, ease-in-out);
+            }
+            &:hover{
+                path{
+                    fill: rgba(0,0,0, 0.8);
+                }
+            }
+        }
+        .contact-email{
+            margin-left: 15px;
+        }
+    }
+}
+.post-list{
+    .post-link{
+        color: $text-color;
+    }
+}
