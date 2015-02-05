@@ -115,6 +115,12 @@ body.home_page{
         color: $text-color;
     }
 }
+.home-bg-image{
+    position: absolute;
+    right: 23%;
+    top: 0px;
+    opacity: 0.8;
+}
 .main-intro{
     position: relative;
     h1{
