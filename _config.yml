@@ -11,5 +11,9 @@ github_username: albertbellonch
 # Build settings
 markdown: kramdown
 
+# Assets
+assets:
+  js_compressor: uglifier
+
 # Other
 mode: development
