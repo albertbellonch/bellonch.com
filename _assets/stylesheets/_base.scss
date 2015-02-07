@@ -214,122 +214,29 @@ pre {
  * Fonts
  */
 
+@mixin embed-font($font-name, $font-filepath-and-name, $font-weight){
+    @font-face {
+        font-family: $font-name;
+        src: url(asset_path("#{$font-filepath-and-name}.eot")); /* IE9 Compat Modes */
+        src: url(asset_path("#{$font-filepath-and-name}.eot?#iefix")) format('embedded-opentype'), /* IE6-IE8 */
+            url(asset_path("#{$font-filepath-and-name}.woff")) format('woff'), /* Modern Browsers */
+            url(asset_path("#{$font-filepath-and-name}.ttf")) format('truetype'), /* Safari, Android, iOS */
+            url(asset_path("#{$font-filepath-and-name}.svg#svgFontName")) format('svg'); /* Legacy iOS */
+        font-weight: $font-weight;
+        font-style: normal;
+    }
+}
+
 // Akzidenz
-@font-face {
-    font-family: 'akzidenz-grotesk';
-    src: url('/assets/fonts/ag/akzidenz_grotesk_black-webfont.eot');
-    src: url('/assets/fonts/ag/akzidenz_grotesk_black-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/ag/akzidenz_grotesk_black-webfont.woff2') format('woff2'),
-         url('/assets/fonts/ag/akzidenz_grotesk_black-webfont.woff') format('woff'),
-         url('/assets/fonts/ag/akzidenz_grotesk_black-webfont.ttf') format('truetype'),
-         url('/assets/fonts/ag/akzidenz_grotesk_black-webfont.svg#akzidenzgroteskregular') format('svg');
-    font-weight: 800;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'akzidenz-grotesk';
-    src: url('/assets/fonts/ag/akzidenz_grotesk_roman-webfont.eot');
-    src: url('/assets/fonts/ag/akzidenz_grotesk_roman-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/ag/akzidenz_grotesk_roman-webfont.woff2') format('woff2'),
-         url('/assets/fonts/ag/akzidenz_grotesk_roman-webfont.woff') format('woff'),
-         url('/assets/fonts/ag/akzidenz_grotesk_roman-webfont.ttf') format('truetype'),
-         url('/assets/fonts/ag/akzidenz_grotesk_roman-webfont.svg#akzidenzgroteskregular') format('svg');
-    font-weight: 500;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'akzidenz-grotesk';
-    src: url('/assets/fonts/ag/akzidenz_grotesk_light-webfont.eot');
-    src: url('/assets/fonts/ag/akzidenz_grotesk_light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/ag/akzidenz_grotesk_light-webfont.woff2') format('woff2'),
-         url('/assets/fonts/ag/akzidenz_grotesk_light-webfont.woff') format('woff'),
-         url('/assets/fonts/ag/akzidenz_grotesk_light-webfont.ttf') format('truetype'),
-         url('/assets/fonts/ag/akzidenz_grotesk_light-webfont.svg#akzidenzgroteskregular') format('svg');
-    font-weight: 300;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'akzidenz-grotesk';
-    src: url('/assets/fonts/ag/akzidenz_grotesk_bold-webfont.eot');
-    src: url('/assets/fonts/ag/akzidenz_grotesk_bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/ag/akzidenz_grotesk_bold-webfont.woff2') format('woff2'),
-         url('/assets/fonts/ag/akzidenz_grotesk_bold-webfont.woff') format('woff'),
-         url('/assets/fonts/ag/akzidenz_grotesk_bold-webfont.ttf') format('truetype'),
-         url('/assets/fonts/ag/akzidenz_grotesk_bold-webfont.svg#akzidenzgroteskregular') format('svg');
-    font-weight: 700;
-    font-style: normal;
-}
+@include embed-font('akzidenz-grotesk', 'ag/akzidenz_grotesk_black-webfont', 800);
+@include embed-font('akzidenz-grotesk', 'ag/akzidenz_grotesk_roman-webfont', 500);
+@include embed-font('akzidenz-grotesk', 'ag/akzidenz_grotesk_light-webfont', 300);
+@include embed-font('akzidenz-grotesk', 'ag/akzidenz_grotesk_bold-webfont', 700);
 
 // Harriet
-@font-face {
-    font-family: 'harriet-display';
-    src: url('/assets/fonts/harriet/harriet_display_black-webfont.eot');
-    src: url('/assets/fonts/harriet/harriet_display_black-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/harriet/harriet_display_black-webfont.woff2') format('woff2'),
-         url('/assets/fonts/harriet/harriet_display_black-webfont.woff') format('woff'),
-         url('/assets/fonts/harriet/harriet_display_black-webfont.ttf') format('truetype'),
-         url('/assets/fonts/harriet/harriet_display_black-webfont.svg#harriet_displayblack') format('svg');
-    font-weight: 900;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'harriet-display';
-    src: url('/assets/fonts/harriet/harriet_display_regular-webfont.eot');
-    src: url('/assets/fonts/harriet/harriet_display_regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/harriet/harriet_display_regular-webfont.woff2') format('woff2'),
-         url('/assets/fonts/harriet/harriet_display_regular-webfont.woff') format('woff'),
-         url('/assets/fonts/harriet/harriet_display_regular-webfont.ttf') format('truetype'),
-         url('/assets/fonts/harriet/harriet_display_regular-webfont.svg#harriet_displayregular') format('svg');
-    font-weight: 400;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'harriet-display';
-    src: url('/assets/fonts/harriet/harriet_display_medium-webfont.eot');
-    src: url('/assets/fonts/harriet/harriet_display_medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/harriet/harriet_display_medium-webfont.woff2') format('woff2'),
-         url('/assets/fonts/harriet/harriet_display_medium-webfont.woff') format('woff'),
-         url('/assets/fonts/harriet/harriet_display_medium-webfont.ttf') format('truetype'),
-         url('/assets/fonts/harriet/harriet_display_medium-webfont.svg#harriet_displaymedium') format('svg');
-    font-weight: 500;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'harriet-display';
-    src: url('/assets/fonts/harriet/harriet_display_thin-webfont.eot');
-    src: url('/assets/fonts/harriet/harriet_display_thin-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/harriet/harriet_display_thin-webfont.woff2') format('woff2'),
-         url('/assets/fonts/harriet/harriet_display_thin-webfont.woff') format('woff'),
-         url('/assets/fonts/harriet/harriet_display_thin-webfont.ttf') format('truetype'),
-         url('/assets/fonts/harriet/harriet_display_thin-webfont.svg#harriet_displaythin') format('svg');
-    font-weight: 100;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'harriet-display';
-    src: url('/assets/fonts/harriet/harriet_display_bold-webfont.eot');
-    src: url('/assets/fonts/harriet/harriet_display_bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/harriet/harriet_display_bold-webfont.woff2') format('woff2'),
-         url('/assets/fonts/harriet/harriet_display_bold-webfont.woff') format('woff'),
-         url('/assets/fonts/harriet/harriet_display_bold-webfont.ttf') format('truetype'),
-         url('/assets/fonts/harriet/harriet_display_bold-webfont.svg#harriet_displaybold') format('svg');
-    font-weight: 700;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'harriet-display';
-    src: url('/assets/fonts/harriet/harriet_display_light-webfont.eot');
-    src: url('/assets/fonts/harriet/harriet_display_light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/harriet/harriet_display_light-webfont.woff2') format('woff2'),
-         url('/assets/fonts/harriet/harriet_display_light-webfont.woff') format('woff'),
-         url('/assets/fonts/harriet/harriet_display_light-webfont.ttf') format('truetype'),
-         url('/assets/fonts/harriet/harriet_display_light-webfont.svg#harriet_displaylight') format('svg');
-    font-weight: 300;
-    font-style: normal;
-
-}
+@include embed-font('harriet-display', 'harriet/harriet_display_black-webfont', 900);
+@include embed-font('harriet-display', 'harriet/harriet_display_regular-webfont', 400);
+@include embed-font('harriet-display', 'harriet/harriet_display_medium-webfont', 500);
+@include embed-font('harriet-display', 'harriet/harriet_display_thin-webfont', 100);
+@include embed-font('harriet-display', 'harriet/harriet_display_bold-webfont', 700);
+@include embed-font('harriet-display', 'harriet/harriet_display_light-webfont', 300);

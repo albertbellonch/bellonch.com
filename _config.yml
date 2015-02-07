@@ -13,6 +13,11 @@ markdown: kramdown
 
 # Assets
 assets:
+  sources:
+    - _assets/fonts
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
   js_compressor: uglifier
   css_compressor: yui
 
