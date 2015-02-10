@@ -138,9 +138,11 @@ body.home_page{
                 @include transition(all, 0.4s, ease-in-out);
             }
             &:hover{
+              @media screen and(min-width: 992px){
                 img{
                     opacity: 0.7;
                 }
+              }
             }
         }
     }
