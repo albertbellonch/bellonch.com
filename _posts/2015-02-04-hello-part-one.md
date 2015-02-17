@@ -3,7 +3,7 @@ layout: page
 title: Hello, part one
 description:
   First post from bellonch.com, back since some years being quite busy
-date: 2015-02-05 23:00
+date: 2015-02-04 23:00
 categories: life
 ---
 
@@ -48,4 +48,4 @@ in one of the most beautiful cities in Italy. Then summer began, only to
 allow me a nice but short period of relax in my hometown before preparing
 everything that I needed for my next journey: writing the thesis in London.
 
-Next chapter soon!
+Next chapter, [here](/hello-part-two).
