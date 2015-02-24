@@ -2,7 +2,7 @@
 layout: page
 title: Hello, part two
 description:
-  Second post from bellonch.com, back after some years away from blogging
+  Second post from bellonch.com, back after some years away from blogging. In this post, from London to having my second working experience.
 date: 2015-02-17 23:00
 categories: life
 ---
@@ -51,4 +51,4 @@ hire, manage and teach people, and also craft MVPs for promising startups that
 were like our babies. I realized that I loved (but really, LOVED) working on that, but somehow an idea
 cross my mind: an idea telling me that something was missing.
 
-Next episode... really soon.
+Next episode, [here](/hello-part-three) (you can check the [previous one](/hello-part-one) too).
