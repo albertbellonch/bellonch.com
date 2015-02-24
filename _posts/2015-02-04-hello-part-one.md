@@ -2,7 +2,7 @@
 layout: page
 title: Hello, part one
 description:
-  First post from bellonch.com, back since some years being quite busy
+  First post from bellonch.com, back since some years being quite busy on everything that led me to this precise moment.
 date: 2015-02-04 23:00
 categories: life
 ---
