@@ -1,7 +1,4 @@
-load 'deploy'
-load 'config/deploy'
+require 'capistrano/setup'
+require 'capistrano/deploy'
 
-Dir['vendor/gems/*/recipes/*.rb','vendor/plugins/*/recipes/*.rb'].each { |plugin| load(plugin) }
-
-require 'capistrano/ext/multistage'
-require 'capistrano_colors'
+Dir.glob('lib/capistrano/tasks/*.cap').each { |r| import r }

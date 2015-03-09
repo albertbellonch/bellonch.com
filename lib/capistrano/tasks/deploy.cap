@@ -1,0 +1,13 @@
+namespace :deploy do
+  task :create_symlink do
+    on roles(:web) do
+      within current_path do
+        execute [
+          "cd #{release_path}",
+          "rm -rf config Capfile",
+          "jekyll build --config _config_production.yml"
+        ].join(";")
+      end
+    end
+  end
+end

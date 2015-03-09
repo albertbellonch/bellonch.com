@@ -1,28 +1,20 @@
-# General
+# Application
 set :application, "bellonch.com"
-set :keep_releases, 5
-set :deploy_to, "/var/www/html/jekyll/bellonch.com"
-set :normalize_asset_timestamps, false
 
-# Stages
-set :stages, %w(production)
-set :default_stage, "production"
-
-# SCM
+# Repo & connection
 set :scm, :git
-set :deploy_via, :remote_cache
-set :repository, "git@github.com:albertbellonch/bellonch.com.git"
-set :ssh_options, { port: 8622 }
+set :repo_url, "git@github.com:albertbellonch/bellonch.com.git"
+set :user, :deployer
+set :port, 8622
+set :ssh_options, { user: fetch(:user), port: fetch(:port), forward_agent: true }
 
-# Users
-set :use_sudo, false
-set :user, "deployer"
+# Misc
+set :keep_releases, 5
+set :format, :pretty
+set :pty, false
 
 # Roles
-role :web, "moroder.bellonch.com"
+server "moroder.bellonch.com", roles: %i{ web }, primary: true
 
-# Recipes
-after "deploy:create_symlink" do
-  run "rm -rf #{release_path}/config #{release_path}/Capfile"
-  run "cd #{release_path} && jekyll build --config _config_production.yml"
-end
+# Hooks
+after "deploy:publishing", "deploy:create_symlink"
