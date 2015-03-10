@@ -21,8 +21,8 @@ I was going to talk in the afternoon block, and I began thinking on what to talk
 advantage of that for the talk.
 
 So I thought: "what are we doing at Quipu, in the end? What are we solving?". And what we basically do is making life easier for our clients
-through technology, and particularly in sectors (like bookkeepers and accounts) that are not too prone to introduce technology to their
-businesses. That is what I was doing to talk about.
+through technology, and particularly in sectors (like bookkeepers and accounting, as well as banking) that are not too prone to introduce
+technology to their businesses. That is what I was doing to talk about.
 
 Thus, last March 5th, I presented the keynote that you can find
 [here](/files/api-hour-revolutionizing-traditional-sectors.pdf){:target="_blank"}
