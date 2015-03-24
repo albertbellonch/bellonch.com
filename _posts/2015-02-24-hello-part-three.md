@@ -43,4 +43,4 @@ along a few weeks after, and in September we launched to the public for the firs
 
 The name of the baby? [Quipu](https://getquipu.com/en){:target="_blank"}.
 
-Next episode... soon enough (part two is [here](/hello-part-two)).
+*Fourth episode is [right here](/hello-part-four) (part two is [here](/hello-part-two)).*
