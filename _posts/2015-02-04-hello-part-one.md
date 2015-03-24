@@ -48,4 +48,4 @@ in one of the most beautiful cities in Italy. Then summer began, only to
 allow me a nice but short period of relax in my hometown before preparing
 everything that I needed for my next journey: writing the thesis in London.
 
-Next chapter, [here](/hello-part-two).
+*Next chapter, [here](/hello-part-two).*
