@@ -17,4 +17,4 @@ set :pty, false
 server "moroder.bellonch.com", roles: %i{ web }, primary: true
 
 # Hooks
-after "deploy:publishing", "deploy:create_symlink"
+after "deploy:publishing", "jekyll:install"

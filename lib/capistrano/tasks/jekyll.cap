@@ -1,5 +1,5 @@
-namespace :deploy do
-  task :create_symlink do
+namespace :jekyll do
+  task :install do
     on roles(:web) do
       within current_path do
         execute [
