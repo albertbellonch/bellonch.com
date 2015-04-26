@@ -54,4 +54,4 @@ was true: startups years are so intense that they are like seven years in any ot
 
 Just like dog years.
 
-*Fifth and final episode will be available soon (part three is [here](/hello-part-three)).*
+*Fifth and final episode can be found [here](/hello-and-part-five) (part three is just [here](/hello-part-three)).*
