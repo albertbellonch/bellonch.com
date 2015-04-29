@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Hello, and part five
 description:
   Fifth and last post talking about all the circumstrances that led my to the current professional moment.

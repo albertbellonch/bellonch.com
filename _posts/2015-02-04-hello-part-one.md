@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Hello, part one
 description:
   First post from bellonch.com, back since some years being quite busy on everything that led me to this precise moment.

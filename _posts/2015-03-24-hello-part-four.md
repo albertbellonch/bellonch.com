@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Hello, part four
 description:
   Four post about how I got there, and what I had the chance to live professionally until this very moment. In this post, the beginning of Quipu!

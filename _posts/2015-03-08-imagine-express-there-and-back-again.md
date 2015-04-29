@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Imagine Express, there and back again
 description:
   This year, I was lucky enough to participate in the second edition of Imagine Express, an amazing and fast-paced experience. Let's check it out!

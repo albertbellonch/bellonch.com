@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Revolutionizing traditional sectors
 description:
   These days I am talking, both in Madrid and Barcelona, about how I understand the revolution of traditional sectors through technology.

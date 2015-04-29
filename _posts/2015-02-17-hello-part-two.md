@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Hello, part two
 description:
   Second post from bellonch.com, back after some years away from blogging. In this post, from London to having my second working experience.

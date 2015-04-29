@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Hello, part three
 description:
   Third post about what happened to me before launching this site. In this one, we'll talk about what happened as itnig grew and improved its business plan.
