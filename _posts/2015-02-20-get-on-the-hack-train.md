@@ -7,7 +7,7 @@ date: 2015-02-20 18:30
 categories: tech business
 ---
 
-#Yesterday I attended the presentation of Imagine Express 2015, a hackathon I am going to, that will be happening in a train from Barcelona to Paris and then London. The winners will pitch their ideas in the upcoming Mobile World Congress 2015 in Barcelona.
+####Yesterday I attended the presentation of Imagine Express 2015, a hackathon I am going to, that will be happening in a train from Barcelona to Paris and then London. The winners will pitch their ideas in the upcoming Mobile World Congress 2015 in Barcelona.
 
 But let’s go back to the beginning. It all started on October of 2014. [BancSabadell](https://www.bancsabadell.com){:target="_blank"},
 arguably one of the best and most solvent banks in Spain, was organizing a hackhaton to see what people could do with their
