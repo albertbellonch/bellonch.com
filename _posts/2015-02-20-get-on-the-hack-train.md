@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Get on the hack train
 description:
   How I got into a crazy train hackathon to Paris and London
