@@ -15,7 +15,7 @@ class: home_page
     </a>
   </h2>
   <ul class="post-list">
-    {% for post in site.posts limit:5 %}
+    {% for post in site.posts limit:10 %}
       <li class="post">
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
