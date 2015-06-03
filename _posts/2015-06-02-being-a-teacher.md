@@ -13,11 +13,11 @@ Last year, some days short of the end of summer, I was being offered the possibi
 
 Of course, this came as an amazing surprise to me! Apart from it being an honor, I had been flirting with teaching for some time, as I had trained several junior developers while being CTO at [itnig](http://itnig.net){:target="_blank"} and [Quipu](https://getquipu.com){:target="_blank"}, but I never did that as my main activity. After thinking about it for a few days, I gladly accepted, then repeated last January, and will repeat again at the end of this month.
 
-I have to admit I was a bit scared about being up to par. I was pretty confident about the technical and knowledge part, but I never really acted as such, as a real teacher. My doubts relied on my ability to successfully transmit concepts to the students, and help them towards the course goals. Particularly in the Ironhack case, the students were really forward, self-sufficient and had the abilities to learn programming (even some had a bit of background about it!) but, contrary to what I was used to, they had no programming formation before.
+I have to admit I was a bit scared about being up to par. I was pretty confident about the technical and knowledge part, but I never really acted as such, as a real teacher. My doubts relied on my ability to successfully transmit concepts to the students, and help them towards the course goals. Particularly in the Ironhack case, the students were really forward, self-sufficient and had the abilities to learn programming but, contrary to what I was used to, they had no programming formation before.
 
 This was one of the biggest challenges, and of the most amazing things I experienced. It meant they had no preconception on what they were going to learn before effectively doing it. No bad habits, no practices that could be improved. A blank sheet. For me, it turned into having to rethink and really know what I was talking about; otherwise, my teaching would have been void and quite futile.
 
-Albert einstein once said:
+Albert Einstein once said:
 
 > You do not really understand something unless you can explain it to your grandmother.
 
