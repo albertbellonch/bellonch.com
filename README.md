@@ -10,7 +10,7 @@ My own personal website and blogging platform.
 
 * Install the needed gems
 
-`gem install jekyll jekyll-assets yui-compressor`
+`bundle`
 
 * Launch Jekyll in order to serve the web application
 
