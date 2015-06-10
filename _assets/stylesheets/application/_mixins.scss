@@ -1,0 +1,16 @@
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+@mixin transition($transition-property, $transition-time, $method) {
+    transition: $transition-property $transition-time $method;
+}
+
+// keyframes mixin
+@mixin keyframes($name) {
+  @keyframes #{$name} {
+    @content;
+  }
+}
