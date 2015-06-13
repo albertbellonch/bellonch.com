@@ -10,4 +10,6 @@ My own personal website and blogging platform.
 
 * Install the needed gems: `bundle`
 
+## Use
+
 * Launch Jekyll in order to serve the web application: `jekyll serve`
