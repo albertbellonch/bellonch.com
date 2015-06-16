@@ -197,6 +197,12 @@ pre {
             min-width: 130%;
             margin-top: 20px;
             margin-bottom: 20px;
+            &.screenshot{
+              margin-left: auto;
+              min-width: 100%;
+              margin-top: -20px;
+              margin-bottom: -40px;
+            }
         }
     }
 }
