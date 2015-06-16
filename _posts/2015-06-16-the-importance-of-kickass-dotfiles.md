@@ -41,7 +41,7 @@ Anyway, it's entirely up to you! Just two examples from my dotfiles:
 
 And all in all, my terminal looks like this...
 
-{% image posts/dotfiles/albertbellonch.png %}
+{% image posts/dotfiles/albertbellonch.png class='screenshot' %}
 
 ...so I guess you now know which one is my favorite animal.
 
