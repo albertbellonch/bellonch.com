@@ -10,6 +10,10 @@ layout: base
     	{{ page.author }}{% endif %}{% if page.meta %} •
     	{{ page.meta }}{% endif %}
     </p>
+    <p>
+      {{ content | number_of_words | plus:90 | divided_by:180 }}
+      minutes read
+    </p>
   </header>
 
   <article class="post-content">
