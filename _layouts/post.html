@@ -5,11 +5,16 @@ layout: base
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">
-    	{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} •
-    	{{ page.author }}{% endif %}{% if page.meta %} •
-    	{{ page.meta }}{% endif %}
-    </p>
+    <div class="post-meta">
+      <p class="info">
+        {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} •
+        {{ page.author }}{% endif %}{% if page.meta %} •
+        {{ page.meta }}{% endif %}
+      </p>
+      <p class="minutes">
+        {{ content | number_of_words | plus:90 | divided_by:180 }} minutes read
+      </p>
+    </div>
   </header>
 
   <article class="post-content">
