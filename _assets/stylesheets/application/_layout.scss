@@ -161,10 +161,12 @@
 }
 
 .post-meta {
+    display: flex;
     font-size: $small-font-size;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
+    justify-content: space-between;
 }
 
 .post-link {
