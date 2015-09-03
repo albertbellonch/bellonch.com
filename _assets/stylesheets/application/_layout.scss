@@ -221,6 +221,15 @@
     }
 }
 
+.post-navigation {
+    display: flex;
+    justify-content: space-between;
+
+    a:last-child {
+      text-align: right;
+    }
+}
+
 /**
  * Home
  */
