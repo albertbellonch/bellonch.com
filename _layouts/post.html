@@ -23,14 +23,14 @@ layout: base
 
   <div class="post-navigation">
     {% if page.previous.url %}
-      <a href="{{page.previous.url}}">
+      <a class="prev" href="{{page.previous.url}}">
         ←
         <br/>
         {{page.previous.title}}
       </a>
     {% endif %}
     {% if page.next.url %}
-      <a href="{{page.next.url}}">
+      <a class="next" href="{{page.next.url}}">
         →
         <br/>
         {{page.next.title}}
