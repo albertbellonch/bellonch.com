@@ -1,6 +1,9 @@
 # Source
 source 'http://rubygems.org'
 
+# Jekyll
+gem 'jekyll'
+
 # Assets
 gem 'jekyll-assets'
 gem 'yui-compressor'
