@@ -3,7 +3,7 @@ layout: post
 title: Managing my TV show complexity
 description:
   How I ended up with a list of all the TV shows I have seen in my life
-date: 2017-03-27 21:08
+date: 2017-03-27 21:12
 categories: life
 ---
 
