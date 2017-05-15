@@ -3,7 +3,7 @@ layout: post
 title: A short music bundle
 description:
   A shortlist of my favorite songs around, and how they (and I) got there.
-date: 2017-05-15 23:14
+date: 2017-05-15 22:14
 categories: life music
 ---
 
