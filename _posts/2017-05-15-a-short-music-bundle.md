@@ -23,9 +23,9 @@ When we got around in his dad's car, he had this mix tape inside the tray, alway
 
 Something had *clicked* inside me, and I started to devour music on my own. My friend had been the starting point, and I had an internal urge to get to know more and more. Internet helped a lot, allowing me to reach a variety that I could not have dreamed of. I went through commercial pop music from the early 2000s, italo disco, classic rock, adult contemporary, indie, opera, all kinds of soundtracks, alternative and many more. And I always wanted more.
 
-{% image posts/short-music-bundle/wall-albums.jpg %}
-
 ###The Wall
+
+{% image posts/short-music-bundle/wall-albums.jpg %}
 
 Just a few years ago, I wanted to decorate the white walls of my new apartment and, amongst other things, I hanged a grid of meaningful albums to me. But I had to think which ones, which resulted in me spending weeks trying to decide which twelve albums would I print and leave in my wall *forever*, constantly updating a list I had in my phone. The result is the picture above, if you scroll a little. Funnily enough, though, I recently printed four more and I have to update my wall, which made me think.
 
@@ -41,4 +41,4 @@ But instead of just writing a cold, heartless list out of the blue, I will try t
 
 If my wall is right, though, in some years time I will have to update this list, maybe from scratch!
 
-*The first song will be out... song enough!*
+*You can find the first song [here](/i-ran-by-a-flock-of-seagulls). A clue: it's from the eighties.*

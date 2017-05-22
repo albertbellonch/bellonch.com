@@ -203,6 +203,10 @@ pre {
               margin-top: -20px;
               margin-bottom: -40px;
             }
+            &.album{
+              margin-left: 15%;
+              min-width: 70%;
+            }
         }
     }
 }
@@ -238,4 +242,12 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+/**
+ * YouTube iframes
+ */
+iframe.youtube {
+  display: block;
+  margin: 0 auto 20px auto;
 }
