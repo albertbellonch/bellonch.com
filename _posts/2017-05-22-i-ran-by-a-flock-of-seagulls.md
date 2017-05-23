@@ -2,7 +2,7 @@
 layout: post
 title: "10th - I Ran, by A Flock of Seagulls"
 description:
-  "First song in the bundle is 'I Ran', by A Flock of Seagulls: my favorite of one-hit wonder all time."
+  "First song in the bundle is 'I Ran', by A Flock of Seagulls: my favorite one-hit wonder all time."
 date: 2017-05-22 23:11
 categories: life music
 ---
