@@ -16,3 +16,4 @@ gem 'jekyll-sitemap'
 # Deployment
 gem 'capistrano'
 gem 'capistrano-bundler'
+gem 'airbrussh', require: false
