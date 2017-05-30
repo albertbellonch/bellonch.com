@@ -47,10 +47,10 @@ Finally, my favorite part starts: an energic, fast-paced and (in a good way) rep
 
 ###So far away
 
-Since its release, it was considered a classic, being the most famous song from the band. In 2002, its popularity increased, funnily enough, due to *GTA: Vice City* (and it helped me being aware of the song!) and, just last year, Academy-Award winning Emma Stone lip-sync sang it quite in the beginning of *La La Land*.
+Since its release, it was considered a classic, being the most famous song from the band. In 2002, its popularity increased, funnily enough, due to *GTA: Vice City* (and it helped me being aware of the song!) and, just last year, Academy-Award winning [Emma Stone lip-sync sang it](https://www.youtube.com/watch?v=kc2-lw6P2ow&t=41){:target="_blank"} quite in the beginning of *La La Land*.
 
 The odds of you not knowing it are really, really low, but just in case, here you can listen to the album version:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BJ7NVjZ-Eyg" frameborder="0" allowfullscreen class="youtube"></iframe>
 
-*The ninth song will be out... song enough!*
+*The ninth song, one of my electronic favorites, will be out... song enough!*
