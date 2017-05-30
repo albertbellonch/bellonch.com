@@ -11,6 +11,10 @@ github_username: albertbellonch
 # Build settings
 markdown: kramdown
 
+# Gems
+gems:
+  - jekyll-sitemap
+
 # Assets
 assets:
   sources:
