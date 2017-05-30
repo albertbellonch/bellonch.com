@@ -2,6 +2,8 @@ GEM
   remote: http://rubygems.org/
   specs:
     addressable (2.3.8)
+    airbrussh (1.1.2)
+      sshkit (>= 1.6.1, != 1.7.0)
     autoprefixer-rails (5.2.0)
       execjs
       json
@@ -53,7 +55,7 @@ GEM
     multi_json (1.11.2)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
-    net-ssh (2.9.2)
+    net-ssh (4.1.0)
     rack (1.6.4)
     rake (10.4.2)
     rb-fsevent (0.9.6)
@@ -86,6 +88,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  airbrussh
   autoprefixer-rails
   capistrano
   capistrano-bundler

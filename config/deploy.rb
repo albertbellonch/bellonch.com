@@ -10,7 +10,6 @@ set :ssh_options, { user: fetch(:user), port: fetch(:port), forward_agent: true 
 
 # Misc
 set :keep_releases, 5
-set :format, :pretty
 set :pty, false
 
 # Roles
