@@ -3,7 +3,7 @@ layout: post
 title: "9th - Face to Face / Short Circuit, by Daft Punk"
 description:
   "Second song in the music bundle is 'Face to Face / Short Circuit' by Daft Punk, a wonderful piece inside an energetic live album."
-date: 2017-05-31 22:20
+date: 2017-05-31 23:53
 categories: life music
 ---
 
