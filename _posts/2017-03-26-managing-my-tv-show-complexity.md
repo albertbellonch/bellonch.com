@@ -21,7 +21,7 @@ Dexter was one of the first series I started, and I was thrilled and awed by the
 
 Apart from the charismatic serial killer from Miami, I remember binge watching great comedies like the American adaptation of The Office and How I Met Your Mother and, like many others, joining the Lost crazyness. The show was in its final season and I pulled an *heroic* marathon through all six seasons until I could watch the series finale live, at 6 in the morning, with some Erasmus friends. I even live commented the entire episode with my sister through Gmail Chat.
 
-###Hitting the plateau
+### Hitting the plateau
 
 From there, my interest kept increasing and it became one of my main hobbies. It was a vast new world to be explored for me, and the variety was astounding: from 20-minute refreshing comedy episodes like my revered Community to 60-minute high-quality crime episodes from The Wire, going through 40-minute episodes from shows like the imaginative Fringe or the thrilling Homeland.
 
@@ -38,7 +38,7 @@ I will never be thankful enough to have a tool like that (below you can see how 
 
 {% image posts/managing-tv-shows/pogdesign-tv-calendar.png %}
 
-###Making it interesting
+### Making it interesting
 
 Then, I wanted to order them. But ordering a list of 85 things by memory (be it wine, books, football players or The Simpsons' characters) is quite hard, so I categorized them in several scores (from 5 to 10) and then, within each score, I sorted them appropriately. This way I could have a list of the shows I have seen, ordered by how much I liked them.
 
@@ -50,7 +50,7 @@ Everything was ready, but I gave myself a few more days to come up with shows I 
 
 The result was [this comprehensive list of the TV shows I have watched](https://docs.google.com/spreadsheets/d/1yF3I8NiAFVtjvkrclsEsj96EsJTlZoOZ8v0IHWk2Acg/edit#gid=1799567903){:target="_blank"}. Now I can answer the famous *How many shows do you watch?* question. That is, if I want to.
 
-###Conclusions
+### Conclusions
 
 {% image posts/managing-tv-shows/joffrey-getting-poisoned.jpg %}
 

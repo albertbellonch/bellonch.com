@@ -13,13 +13,13 @@ I will begin my particular list of songs with the only One-Hit Wonder: *I Ran*, 
 
 For this specific song, in my case, I have never ever stopped listening to it regularly since I first heard it.
 
-###Tales from Vice City
+### Tales from Vice City
 
 I have a guess on when that was. One of my favorite videogame sagas of all time is *Grand Theft Auto*, commonly abbreviated as *GTA*. I remember being absolutely amazed at *GTA II* at a friend's house in 1999: you have freedom to go around! There is a lot of different cars! I asked to play and I would be there forever until he eventually kicked me out. It wasn't until some years after it that I had the next version of the game, finally in a tridimensional world, and I would play for hours.
 
 The thing is that all *GTAs* feature a crazy good soundtrack. Imitating a bunch of radio stations to make casual driving more realistic, the soundtracks can easily go over a hundred different songs in, say, six or seven different genres. *GTA: Vice City*, ambiented in the 1980s Miami, excelled particularly at this and had a specific radio station, Wave 103, dedicated to New Wave. Between songs from Corey Hart, Blondie or The Psychedelic Furs (and hilarious excerpts from a very *new-wavey*, fictional DJ), there was a magnificent song: *I Ran*.
 
-###The Flock
+### The Flock
 
 {% image posts/i-ran-a-flock-of-seagulls/band.jpg %}
 
@@ -29,7 +29,7 @@ The album reached top 10 in the US and New Zealand, and peaked in Australia. Its
 
 From there, A Flock of Seagulls never got back to the stardom it had once reached. Three more albums would follow, one each year until 1985. The year after that, they splitted up only to come back two years later in 1988. Since then, they have released only one more studio album (apart from more than ten compilation albums) and changed several band members more than once. All except the original founder: Mike Score.
 
-###And I Ran
+### And I Ran
 
 {% image posts/i-ran-a-flock-of-seagulls/album.jpg class="album" %}
 
@@ -45,7 +45,7 @@ The main part features a classic pattern, highlighted by a few choruses cleverly
 
 Finally, my favorite part starts: an energic, fast-paced and (in a good way) repetitive guitar solo that ultimately increases its rhythm, building up to a fantastic end. Check out between 4:31 and 4:58 and you will discover why this *I Ran* is in my top ten.
 
-###So far away
+### So far away
 
 Since its release, it was considered a classic, being the most famous song from the band. In 2002, its popularity increased, funnily enough, due to *GTA: Vice City* (and it helped me being aware of the song!) and, just last year, Academy-Award winning [Emma Stone lip-sync sang it](https://www.youtube.com/watch?v=kc2-lw6P2ow&t=41){:target="_blank"} quite in the beginning of *La La Land*.
 
