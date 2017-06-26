@@ -3,7 +3,7 @@ layout: post
 title: "8th - Love Chronicles, by Al Stewart"
 description:
   "Third song in my top songs list is 'Love Chronicles', a long, interesting work of art by folk artist Al Stewart."
-date: 2017-06-26 23:45
+date: 2017-06-27 0:33
 categories: life music
 ---
 
