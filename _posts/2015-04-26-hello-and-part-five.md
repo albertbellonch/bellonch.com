@@ -7,7 +7,7 @@ date: 2015-04-26 22:30
 categories: life
 ---
 
-####I continued focused on Quipu, where we swapped the uncertainty of the earliest months for excitement and growth.
+#### I continued focused on Quipu, where we swapped the uncertainty of the earliest months for excitement and growth.
 
 As we left our anniversary celebration behind and the summer went by, all the team focused their energies to increase growth
 and continue working towards our vision. For one thing, we had learnt a lot about our clients and what they needed, making us

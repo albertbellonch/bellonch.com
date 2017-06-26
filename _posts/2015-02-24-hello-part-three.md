@@ -7,7 +7,7 @@ date: 2015-02-24 23:00
 categories: life
 ---
 
-####We were growing as a tech-oriented, quality-focused startup accelerator. Let's see what happened as we were entering the next stage.
+#### We were growing as a tech-oriented, quality-focused startup accelerator. Let's see what happened as we were entering the next stage.
 
 We were growing faster and faster. We moved to a nice, really big office
 in another neighbourhood, and we had several startups in our admission pipeline.

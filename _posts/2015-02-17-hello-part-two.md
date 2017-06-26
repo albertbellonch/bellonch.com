@@ -7,7 +7,7 @@ date: 2015-02-17 23:00
 categories: life
 ---
 
-####I was just telling how did it go for me from just before going on Erasmus to the summer after that experience, when I had the opportunity to finish my degree in London. Let's find out what happened next.
+#### I was just telling how did it go for me from just before going on Erasmus to the summer after that experience, when I had the opportunity to finish my degree in London. Let's find out what happened next.
 
 Thanks to some friends I made the previous months, I managed to do an
 Inception-like Erasmus within an Erasmus: I went to London Metropolitan

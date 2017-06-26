@@ -7,7 +7,7 @@ date: 2015-10-26 00:05
 categories: tech
 ---
 
-####Have you ever thought about how to mount a Time Capsule in a UNIX system? Here's the answer.
+#### Have you ever thought about how to mount a Time Capsule in a UNIX system? Here's the answer.
 
 Lately I have been playing with my old Raspberry Pi from 2012, resurrecting [an old project I had started some years ago](https://github.com/albertbellonch/walter-bishop){:target="_blank"}. After a few days of development in my MacBook, the next step was deploying it into that little computer, running the latest Raspbian available as of now: [Jessie](https://www.raspberrypi.org/downloads/raspbian/){:target="_blank"}.
 
