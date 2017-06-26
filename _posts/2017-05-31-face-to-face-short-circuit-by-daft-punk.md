@@ -69,4 +69,4 @@ We will see how the future turns out for Daft Punk, but they made it into my per
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZXhwXhv37Ps" frameborder="0" allowfullscreen class="youtube"></iframe>
 
-*The eigth song, a singular folk classic from a great singer-songwriter, will be out... soon enough!*
+*The eigth song, a singular folk classic from a great singer-songwriter, can be enjoyed [here](/love-chronicles-by-al-stewart).*
