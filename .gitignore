@@ -1,4 +1,5 @@
 _site
 .sass-cache
+.asset-cache/
 log/*
 **/*.DS_Store
