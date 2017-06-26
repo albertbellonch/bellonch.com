@@ -7,7 +7,7 @@ date: 2015-05-10 22:45
 categories: tech
 ---
 
-####Some say that the journey is the reward, which is really true for my blog. The journey of building it has been one of my favourite parts of it.
+#### Some say that the journey is the reward, which is really true for my blog. The journey of building it has been one of my favourite parts of it.
 
 As I explained [in the "hello" series of posts](https://bellonch.com/hello-part-one), I got back to this blogging world lately. I wanted a personal space in which I could talk about several topics, ranging from my own view about some subjects to tech posts of several sorts, as well as explaining some of the things I am doing these days.
 

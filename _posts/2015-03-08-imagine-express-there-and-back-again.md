@@ -7,7 +7,7 @@ date: 2015-03-08 23:30
 categories: life
 ---
 
-####Just a few days ago, I participated in a unique, three-day hackathon across Barcelona, Paris and London, finishing up in the Mobile World Congress
+#### Just a few days ago, I participated in a unique, three-day hackathon across Barcelona, Paris and London, finishing up in the Mobile World Congress
 
 I introduced it [roughly a couple of weeks ago](/get-on-the-hack-train){:target="_blank"}, just after the presentation keynote that was held
 a week before it. We knew the information about it, the timetables, what we were going to do at each moment, and the expectations were high.

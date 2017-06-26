@@ -7,7 +7,7 @@ date: 2015-02-04 23:00
 categories: life
 ---
 
-####So it has been a while since I don't have a proper blog, and I thought it might be nice to have a platform for that.
+#### So it has been a while since I don't have a proper blog, and I thought it might be nice to have a platform for that.
 
 And it truly has been a long while.
 

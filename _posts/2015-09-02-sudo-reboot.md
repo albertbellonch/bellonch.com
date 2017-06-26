@@ -7,7 +7,7 @@ date: 2015-09-02 23:00
 categories: life tech
 ---
 
-####I've been a bit out lately. Yes, I know. But it was for the greater good!
+#### I've been a bit out lately. Yes, I know. But it was for the greater good!
 
 Two and a half months ago [I posted about dotfiles](/the-importance-of-kickass-dotfiles), explaining why it's important to prepare your tools so you get better at your job. And since then, sadly, nothing changed in my blog. It turns out these last few months have been really challenging, and as time demanding as you can imagine.
 

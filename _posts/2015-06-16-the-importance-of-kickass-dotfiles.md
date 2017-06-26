@@ -7,7 +7,7 @@ date: 2015-06-16 00:20
 categories: tech
 ---
 
-####Your experience, knowledge and talent are key to success, but some kick-ass dotfiles speed you up.
+#### Your experience, knowledge and talent are key to success, but some kick-ass dotfiles speed you up.
 
 I remember my first day as a Ruby programmer, some four years ago. I just got landed in this world, started learning about RVM, gems, bundler, Rails and so many things. And one of the things my then mentor talked about was **dotfiles**.
 

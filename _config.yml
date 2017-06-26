@@ -11,15 +11,20 @@ github_username: albertbellonch
 # Build settings
 markdown: kramdown
 
-# Assets
+# Assets & plugins
 assets:
+  compress:
+    css: false
+    js: false
   sources:
     - _assets/fonts
     - _assets/images
     - _assets/javascripts
     - _assets/stylesheets
-  js_compressor: uglifier
-  css_compressor: yui
+
+plugins:
+  - jekyll-assets
+  - jekyll-autoprefixer
 
 # Other
 mode: development

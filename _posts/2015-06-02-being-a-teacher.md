@@ -7,7 +7,7 @@ date: 2015-06-02 23:55
 categories: life
 ---
 
-####You might hear someone with experience in the matter that teaching is one of the most enjoyable jobs anyone can do. It's true.
+#### You might hear someone with experience in the matter that teaching is one of the most enjoyable jobs anyone can do. It's true.
 
 Last year, some days short of the end of summer, I was being offered the possibility of teaching. The proposal came from [Ironhack](http://ironhack.com/en/){:target="_blank"}, a company that provides intensive programming courses for developers. They were looking for someone able to either teach [Ruby](https://www.ruby-lang.org/en/){:target="_blank"} or [Ruby on Rails](http://rubyonrails.org/){:target="_blank"} fundamentals, two topics I had been hands-on, full-time for almost four years.
 

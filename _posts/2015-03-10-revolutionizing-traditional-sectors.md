@@ -7,7 +7,7 @@ date: 2015-03-10 00:05
 categories: life
 ---
 
-####Traditional sectors are switching to newest technologies more and more lately, but they are often afraid about it and do not know how to start. How can we achieve that?
+#### Traditional sectors are switching to newest technologies more and more lately, but they are often afraid about it and do not know how to start. How can we achieve that?
 
 A few weeks ago, I was invited to an interesting event, organized by the [BBVA](https://www.bbva.es/particulares/index.jsp){:target="_blank"}
 innovation center. The topic was Fintech companies and APIs (in the end, the event is called The API Hour), and had both a

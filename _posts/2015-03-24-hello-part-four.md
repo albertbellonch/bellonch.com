@@ -7,7 +7,7 @@ date: 2015-03-24 23:00
 categories: life
 ---
 
-####I just found myself in the beginning of a brand new startup, and I loved it.
+#### I just found myself in the beginning of a brand new startup, and I loved it.
 
 So [Quipu](https://getquipu.com/en){:target="_blank"} was just born. A really young startup is just in the opposite side from big,
 enterprise companies. You have no track record, no financial structure, no long-term plans, no clients, and almost no team. That might sound
