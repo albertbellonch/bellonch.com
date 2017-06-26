@@ -6,9 +6,9 @@ gem 'jekyll'
 
 # Assets
 gem 'jekyll-assets'
-gem 'jekyll-autoprefixer', github: 'Betterment/jekyll-autoprefixer', branch: 'autoprefixer-rails-7'
 gem 'yui-compressor'
 gem 'uglifier'
+gem 'autoprefixer-rails'
 
 # Tools
 gem 'jekyll-sitemap'
