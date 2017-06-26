@@ -7,7 +7,7 @@ date: 2017-05-15 22:14
 categories: life music
 ---
 
-####A shortlist of my favorite songs around, and how they (and I) got there.
+#### A shortlist of my favorite songs around, and how they (and I) got there.
 
 Music is a marvelous thing. We do not know exactly why, but it transmits a kind of energy that can influence you heavily in a wide range of distinct ways. It can make you forget a bad moment as you start dancing crazily; remember that broken love you had a lot of years ago; focus blindly on whatever you are doing at the moment; or run the extra mile when you are about to pass off. It can ease your way into some kind of transcension that you could not get any other way, changing your mood for the day. Even the same song can affect several people differently!
 
