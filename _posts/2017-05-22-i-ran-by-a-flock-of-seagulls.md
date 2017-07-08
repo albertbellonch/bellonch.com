@@ -7,6 +7,8 @@ date: 2017-05-22 23:11
 categories: life music
 ---
 
+*This is the first installment of a series of posts about my favorite songs in all history. You can find the introduction [here](/a-short-music-bundle).*
+
 #### My favorite One-Hit Wonder of all time.
 
 I will begin my particular list of songs with the only One-Hit Wonder: *I Ran*, by the English band A Flock of Seagulls. All of us like one-hit wonders (*the question is which ones*): they are catchy, they hook you instantly and, for days or weeks, you cannot get them out of your head. Eventually, though, your interest fades and they start being part of the past.

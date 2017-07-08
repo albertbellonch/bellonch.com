@@ -7,6 +7,8 @@ date: 2017-06-27 0:33
 categories: life music
 ---
 
+*This is the third installment of a series of posts about my favorite songs in all history. You can find the introduction [here](/a-short-music-bundle).*
+
 #### A long love story with several characters.
 
 The same way that we already covered the only One-Hit Wonder and the only mix for this particular music bundle in previous posts, we can also point out unique traits about this song. And more than one, actually: it is the only folk song in this top ten, and it's the longest one by far!

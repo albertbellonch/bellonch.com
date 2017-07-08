@@ -7,6 +7,8 @@ date: 2017-05-31 23:53
 categories: life music
 ---
 
+*This is the second installment of a series of posts about my favorite songs in all history. You can find the introduction [here](/a-short-music-bundle).*
+
 #### Inside a music-induced trance.
 
 The same way we already got through the only One-Hit Wonder in the list with the previous song, this one is the only mix that made it to the final selection. *Face to Face / Short Circuit*, from Daft Punk, is (with more meaning than ever) a track inside of something greater and, although I could have picked others inside the album, I picked this very one.
