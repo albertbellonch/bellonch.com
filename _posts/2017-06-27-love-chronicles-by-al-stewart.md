@@ -49,7 +49,7 @@ His music has two main axes, two poles that are really close to each other and e
 
 But on the other hand, there are lots of references to historical moments in many works: World War I and II, the French Revolution or even Basque separatism. Great examples are the heart-breaking *Roads to Moscow*, from *Past, Present and Future*, which tells the story of a soldier in the front, and self-explaining albums like *Russians & Americans* and *Between the Wars*.
 
-In my opinion, each one of his albums is somehow between both poles in a combination that I have barely seen else where. Thus, it is impossible to understand his work without paying close attention to his lyrics and the meaning underneath: frank, descriptive storytelling with the particular trait of avoiding repetition, as much as possible, in all his songs.
+In my opinion, each one of his albums is somehow between both poles in a combination that I have barely seen elsewhere. Thus, it is impossible to understand his work without paying close attention to his lyrics and the meaning underneath: frank, descriptive storytelling with the particular trait of avoiding repetition, as much as possible, in all his songs.
 
 ### I can remember the first girl...
 
@@ -71,4 +71,4 @@ Without further ado, please take the time (almost twenty minutes!) to listen to 
 
 {% include youtube-video.html id="yozCWyDEw-M" %}
 
-*The seventh song, a fifty-year-old psychedelic from one of the best albums in history, will be out... song enough!*
+*The seventh song, a fifty-year-old psychedelic from one of the best albums in history, is just [a click away](/a-house-is-not-a-motel-by-love).*
