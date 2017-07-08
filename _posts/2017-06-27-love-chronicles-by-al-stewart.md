@@ -55,7 +55,7 @@ In my opinion, each one of his albums is somehow between both poles in a combina
 
 * *Released: September 1969*
 * *Album: Love Chronicles*
-* *Label: CBS
+* *Label: CBS*
 * *Length: 18:07*
 * *Genre: Folk*
 
