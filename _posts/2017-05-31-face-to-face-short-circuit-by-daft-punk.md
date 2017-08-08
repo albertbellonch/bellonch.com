@@ -69,6 +69,6 @@ The specific choice of *Face to Face / Short Circuit* comes from my subjective u
 
 We will see how the future turns out for Daft Punk, but they made it into my personal shortlist already. You can enjoy the song below and, if you get a chance, play the whole album end to end:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZXhwXhv37Ps" frameborder="0" allowfullscreen class="youtube"></iframe>
+{% include youtube-video.html id="ZXhwXhv37Ps" %}
 
 *The eigth song, a singular folk classic from a great singer-songwriter, can be enjoyed [here](/love-chronicles-by-al-stewart).*

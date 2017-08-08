@@ -53,6 +53,6 @@ Since its release, it was considered a classic, being the most famous song from 
 
 The odds of you not knowing it are really, really low, but just in case, here you can listen to the album version:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BJ7NVjZ-Eyg" frameborder="0" allowfullscreen class="youtube"></iframe>
+{% include youtube-video.html id="BJ7NVjZ-Eyg" %}
 
 *The ninth song, one of my electronic favorites, is just [here](/face-to-face-short-circuit-by-daft-punk).*

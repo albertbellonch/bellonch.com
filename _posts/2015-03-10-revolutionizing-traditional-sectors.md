@@ -28,7 +28,7 @@ Thus, last March 5th, I presented the keynote that you can find
 [here](/files/api-hour-revolutionizing-traditional-sectors.pdf){:target="_blank"}
 (in Spanish). Also there is a whole video for the event:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UYh6pZ3xN28" frameborder="0" allowfullscreen class="youtube"></iframe>
+{% include youtube-video.html id="UYh6pZ3xN28" %}
 *(you can find me in minute 33 for the presentation, and at 2 hours and 9 minutes for the speakers' panel)*
 
 If you live in Barcelona or nearby, though, you still have a chance to see it live: I will be giving the same talk on next Wednesday,
