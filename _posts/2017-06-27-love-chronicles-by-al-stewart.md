@@ -69,6 +69,6 @@ It is not a technical marvel, but the rest exceedingly makes up for it. A long s
 
 Without further ado, please take the time (almost twenty minutes!) to listen to this song, 48 years old at the time of writing:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yozCWyDEw-M" frameborder="0" allowfullscreen class="youtube"></iframe>
+{% include youtube-video.html id="yozCWyDEw-M" %}
 
 *The seventh song, a fifty-year-old psychedelic from one of the best albums in history, will be out... song enough!*
