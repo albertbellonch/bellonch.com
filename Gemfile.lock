@@ -54,7 +54,7 @@ GEM
     jekyll-sitemap (0.10.0)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
-    json (1.8.3)
+    json (2.1.0)
     kramdown (1.14.0)
     liquid (3.0.6)
     listen (3.0.8)
@@ -112,4 +112,4 @@ DEPENDENCIES
   yui-compressor
 
 BUNDLED WITH
-   1.15.1
+   1.16.0.pre.3
