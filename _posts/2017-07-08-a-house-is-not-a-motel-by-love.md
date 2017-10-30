@@ -3,7 +3,7 @@ layout: post
 title: "7th - A House is not a Motel, by Love"
 description:
   "Fourth song in the compilation of my favourite songs of all time: the oldest one, from the Summer of Love in San Francisco, was bundled in one of the best albums in history."
-date: 2017-10-30 22:50
+date: 2017-10-30 21:50
 categories: life music
 ---
 
