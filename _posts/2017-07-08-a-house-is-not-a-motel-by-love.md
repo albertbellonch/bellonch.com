@@ -23,7 +23,7 @@ I have been fascinated with the sixties for a long time. Apart from the birth of
 
 With a vision of detaching yourself from reality, strongly fueled by the use of psychedelic drugs such as mescaline (found in peyote), LSD or psilocybin (found in mushrooms), new elements were incorporated into rock music in order to reflect this state of mind: electronic, alternative instruments or new effects and song structures. Psychedelic rock peaked in the late 60s, with 1967's *Summer of Love* and 1969's *Woodstock Music Festival* as the defining, cornerstone events of the moment, and later evolved into progressive rock and hard rock.
 
-The Beatles, for instance, were one of the major representatives of this style, which is specially evident in their mid-latest albums such as *Magical Mystery Tour* and *The White Album*, as well as other bands such as The Yardbirds or The Byrds. Apart from the Liverpool quartet, my favorite psychedelic rock bands include Jefferson Airplane, King Crimson (which I discovered thanks to my dear friend [@marphille](https://twitter.com/marphille){:target="_blank"}) and, above all, Love.
+The Beatles, for instance, were one of the major representatives of this style, which is specially evident in their mid-latest albums such as *Magical Mystery Tour* and *The White Album*, as well as other bands such as The Yardbirds or The Byrds. Apart from the Liverpool quartet, my favorite psychedelic rock bands include Pink Floyd, Jefferson Airplane, King Crimson (which I discovered thanks to my dear friend [@marphille](https://twitter.com/marphille){:target="_blank"}) and, above all, Love.
 
 ### Greetings from Memphis
 
@@ -61,7 +61,7 @@ Blissfully soaked in a chaos of expected and eccentric instruments, the eleven s
 
 ### And so, A House Is Not A Motel
 
-Enjoy the song and check out the whole album for an even great experience:
+Enjoy the song (which was brilliantly [versioned by Robert Plant](https://www.youtube.com/watch?v=Q3lqnAXTaQg){:target="_blank"}) and check out the whole album for an even great experience:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2Z4LNBq3WxE" frameborder="0" allowfullscreen class="youtube"></iframe>
 
