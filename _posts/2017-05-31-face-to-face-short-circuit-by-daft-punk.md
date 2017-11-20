@@ -2,12 +2,12 @@
 layout: post
 title: "9th - Face to Face / Short Circuit, by Daft Punk"
 description:
-  "Second song in the music bundle is 'Face to Face / Short Circuit' by Daft Punk, a wonderful piece inside an energetic live album."
+  "Ninth song in the music bundle is 'Face to Face / Short Circuit' by Daft Punk, a wonderful piece inside an energetic live album."
 date: 2017-05-31 23:53
 categories: life music
 ---
 
-*This is the second installment of a series of posts about my favorite songs in all history. You can find the introduction [here](/a-short-music-bundle).*
+*This is the third installment of a series of posts about my favorite songs in all history. You can find the introduction [here](/a-short-music-bundle).*
 
 #### Inside a music-induced trance.
 
@@ -71,4 +71,4 @@ We will see how the future turns out for Daft Punk, but they made it into my per
 
 {% include youtube-video.html id="ZXhwXhv37Ps" %}
 
-*The eigth song, a singular folk classic from a great singer-songwriter, can be enjoyed [here](/love-chronicles-by-al-stewart).*
+*The eighth song, a singular folk classic from a great singer-songwriter, can be enjoyed [here](/love-chronicles-by-al-stewart).*
