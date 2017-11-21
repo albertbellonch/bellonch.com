@@ -17,7 +17,7 @@ And, thanks to this change in music trends, a great deal of my favorite artists 
 
 ### The two concerts
 
-I was most probably introduced in the early 2000s to Pet Shop Boys by my best friend, [the same one who got The Tape](/i-ran-by-a-flock-of-seagulls){:target="_blank"}. I remember listening to them compulsively for months (they were one of my first musical *crashes*) until I got acquainted with their futuristic music, and then followed their albums as they were released.
+I was most probably introduced in the early 2000s to Pet Shop Boys by my best friend, [the same one who got The Tape](/i-ran-by-a-flock-of-seagulls){:target="_blank"}. I remember listening to them compulsively for months (they were one of my first musical *crushes*) until I got acquainted with their futuristic music, and then followed their albums as they were released.
 
 One of the first concerts I have been to was by them, within the Asics Music Festival in Barcelona in 2007, where I went to with my sister, also a huge fan. I remember anxiously waiting to hear them for five or six hours, as other bands played first, until I saw one of my favorite bands ever live. It was not the only time, though: quickly after releasing *Yes*, from 2009, they came to Barcelona for their Pandemonium Tour and, again with my sister, I could enjoy them for more than a couple hours. Just like below.
 
@@ -33,7 +33,7 @@ A widespread success and considered one of the best performances of *The King of
 
 ### Moving on to the UK
 
-The band began almost a decade after Elvis' cover, briefly after Neil Tennant (which studied in London Metropolitan University, [like me](/hello-part-two){:target="_blank"}!) and Chris Lowe met in an electronics shop in London in 1981. Unaware that they would do a hit version of this song at that time, they began working on songs and performing under the name West End, although they ended up using their definitive name after the job some of their friends had.
+The band began almost a decade after Elvis' cover, briefly after Neil Tennant (that studied in London Metropolitan University, [like me](/hello-part-two){:target="_blank"}!) and Chris Lowe met in an electronics shop in London in 1981. Unaware that they would do a hit version of this song at that time, they began working on songs and performing under the name West End, although they ended up using their definitive name after the job some of their friends had.
 
 Soon after, in 1983, they got a record deal with producer Bobby Orlando after Tennant met him while he was interviewing The Police. For a year, they recorded and released more than ten singles, including widely know songs as *West End Girls*, *Rent* or *It's A Sin* and eventually, in 1985, they moved to the London-based Parlophone label. By early 1986, *West End Girls* started reaching top 1 everywhere, including the US and Canada, and ended up being the band's most heard song ever.
 
