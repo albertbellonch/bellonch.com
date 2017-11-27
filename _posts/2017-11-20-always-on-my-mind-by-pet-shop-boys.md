@@ -71,4 +71,4 @@ If you haven't already, get a taste of this marvel through their video clip, a f
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wDe60CbIagg" frameborder="0" allowfullscreen class="youtube"></iframe>
 
-*The fifth song, the only one from the list without a vocal track, will be out... song enough!*
+*The fifth song, the only one from the list without a vocal track, is available [here](/chase-by-giorgio-moroder).*
