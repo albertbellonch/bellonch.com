@@ -29,7 +29,7 @@ Apart from having a marvelous first name, Stewart was born in Scotland's capital
 
 His first single, *The Elf*, was lucky enough to include the legendary Jimmy Page's guitar, and after that Stewart ended up signing to Columbia Records, a label with which he collaborated for up to ten years. The debut album, *Bedsitter Images*, was released in 1967, followed by my beloved *Love Chronicles* in 1969.
 
-{% image posts/love-chronicles-al-stewart/author.jpg %}
+{% image posts/love-chronicles/author.jpg %}
 
 ### Getting known with Alan Parsons
 
@@ -53,7 +53,7 @@ In my opinion, each one of his albums is somehow between both poles in a combina
 
 ### I can remember the first girl...
 
-{% image posts/love-chronicles-al-stewart/album.jpg class="album" %}
+{% image posts/love-chronicles/album.jpg class="album" %}
 
 * *Released: September 1969*
 * *Album: Love Chronicles*
