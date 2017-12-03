@@ -31,7 +31,7 @@ A couple years later, they released *Random Access Memories*, their latest work 
 
 Let's focus on the duo responsible for so many productive evenings of code crafting. Frenchmen Thomas Bangalter and Guy-Manuel de Homem-Christo had already met in school in the late 80s and had previous experience in *Darlin'*. Even though that band did not get much further than a few songs, they continued working together until releasing their first song (*The New Wave*) in 1994. The next single (*Da Funk*), released in the following year, achieved commercial success and the story of Daft Punk began to roll out.
 
-{% image posts/face-to-face-short-circuit-daft-punk/interstella555.jpg %}
+{% image posts/face-to-face-short-circuit/interstella555.jpg %}
 
 The duo played live more and more, though not dressed as robots yet, and eventually released their first album (*Homework*) in 1997, quickly followed by *Daftendirekt*: a year-long tour that led to their first live album (*Alive 1997*). Four years and a lot of work later, their second album (*Discovery*) was released, whose promotion is particularly interesting: *Captain Harlock* creator Leiji Matsumoto ended up producing a whole anime film (*Interstella 5555: The 5tory of the 5ecret 5tar 5ystem*) with the entire *Discovery* set of songs as the only sounds in it. Hence the videoclips I talk about just a few paragraphs above. At that point, the duo was widely known.
 
@@ -43,7 +43,7 @@ Since then, the duo used some time to focus on other projects (like the soundtra
 
 ### A couple of French, secretive robots
 
-{% image posts/face-to-face-short-circuit-daft-punk/duo.jpg %}
+{% image posts/face-to-face-short-circuit/duo.jpg %}
 
 Daft Punk has several qualities that make them unique or, at least, objectively outstanding from other bands out there. A clear example is the first thing most people have in mind regarding them is their appearance: impeccable suits and shiny, futuristic robot helmets. This identity, which did not appear until their forementioned second album (*Discovery*), is nothing but a clever way to project all the focus to their work by hiding their private personas. If you ask me: a great strategy.
 
@@ -51,7 +51,7 @@ Another distinct trait is their perfectionism: it is quite known that they can e
 
 ### Electronic ecstasy
 
-{% image posts/face-to-face-short-circuit-daft-punk/album.jpg class="album" %}
+{% image posts/face-to-face-short-circuit/album.jpg class="album" %}
 
 * *Released: November 2007*
 * *Album: Alive 2007*
