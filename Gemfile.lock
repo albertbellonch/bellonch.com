@@ -23,7 +23,7 @@ GEM
     execjs (2.6.0)
     fastimage (1.7.0)
       addressable (~> 2.3, >= 2.3.5)
-    ffi (1.9.18)
+    ffi (1.10.0)
     forwardable-extended (2.6.0)
     hike (1.2.3)
     http_parser.rb (0.6.0)
