@@ -1,5 +1,7 @@
 # bellonch.com
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/29ac7124-aea8-496a-8bf6-b9ce663c9f89/deploy-status)](https://app.netlify.com/sites/ecstatic-colden-708cf2/deploys)
+
 ## Description
 
 My own personal website and blogging platform.
