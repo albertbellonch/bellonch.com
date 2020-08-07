@@ -2,7 +2,7 @@
 source 'http://rubygems.org'
 
 # Jekyll
-gem 'jekyll'
+gem "jekyll", "~> 4.0"
 
 # Rendering
 gem 'kramdown-parser-gfm'
