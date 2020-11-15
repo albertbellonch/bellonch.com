@@ -55,6 +55,10 @@ In the beginning of this decade I already knew Giorgio Moroder and was a huge fo
 
 Apart from that (and quite thanks to it), Moroder's career was reactivated immediately, releasing the soundtrack for Google's game experiment [Racer](g.co/racer){:target="_blank"} and, after 23 years since the last one, another album: *Déjà Vu* (2015), with stars like Sia or Britney Spears. He now DJs live (something [he did not like in the past](https://www.youtube.com/watch?v=WmNH1e8yqdY){:target="_blank"}) in gigs like [this one](https://www.youtube.com/watch?v=qYonaSnV534){:target="_blank"} in *Deep Space* (NYC) for the Red Bull Music Academy Radio.
 
+### Post scriptum
+
+On the summer of 2019, I was very lucky to finally see him live. He came to Barcelona the 22th of june, to play at the Jardins de Pedralbes Festival. It was an amazing hour and so where he DJ'd over the most known records of all his career. Fantastic!
+
 ### Let's cut...
 
 {% image posts/chase/cover.jpg class="album" %}
