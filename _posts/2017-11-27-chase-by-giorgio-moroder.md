@@ -57,7 +57,7 @@ Apart from that (and quite thanks to it), Moroder's career was reactivated immed
 
 ### Post scriptum
 
-On the summer of 2019, I was very lucky to finally see him live. He came to Barcelona the 22th of june, to play at the Jardins de Pedralbes Festival. It was an amazing hour and so where he DJ'd over the most known records of all his career. Fantastic!
+On the summer of 2019, I was very lucky to finally see him live. He came to Barcelona the 22th of June, to play at the Jardins de Pedralbes Festival. It was an amazing hour and so where he DJ'd over the most known records of all his career. Fantastic!
 
 ### Let's cut...
 
