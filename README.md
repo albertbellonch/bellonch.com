@@ -9,12 +9,12 @@ My own personal website and blogging platform.
 ## Installation
 
 * Install Ruby >= 2 through [rvm](https://rvm.io/) or [rbenv](http://rbenv.org/)
-
+* Install a Java runtime
 * Install the needed gems: `bundle`
 
 ## Development
 
-* Launch Jekyll in order to serve the web application: `jekyll serve`
+* Launch Jekyll in order to serve the web application: `bundle exec jekyll serve`
 
 ## Deployment
 
