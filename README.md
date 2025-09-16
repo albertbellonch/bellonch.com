@@ -9,7 +9,7 @@ My own personal website and blogging platform.
 ## Installation
 
 * Install Ruby >= 2 through [rvm](https://rvm.io/) or [rbenv](http://rbenv.org/)
-* Install a Java runtime
+* Install a Java runtime: `brew install java && sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk`
 * Install the needed gems: `bundle`
 
 ## Development
