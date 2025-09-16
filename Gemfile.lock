@@ -1,5 +1,5 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
@@ -15,7 +15,7 @@ GEM
     execjs (2.6.0)
     fastimage (1.8.1)
       addressable (~> 2.3, >= 2.3.5)
-    ffi (1.17.2)
+    ffi (1.16.3)
     forwardable-extended (2.6.0)
     hike (1.2.3)
     http_parser.rb (0.6.0)
@@ -102,6 +102,7 @@ PLATFORMS
 
 DEPENDENCIES
   autoprefixer-rails
+  ffi (= 1.16.3)
   jekyll (~> 4.0)
   jekyll-assets
   jekyll-sitemap
