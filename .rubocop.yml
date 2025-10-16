@@ -1,0 +1,42 @@
+# Ruby 3.4 project-wide defaults
+AllCops:
+  TargetRubyVersion: 3.4
+  NewCops: enable
+  Exclude:
+    - "bin/**/*"
+    - "node_modules/**/*"
+    - "_site/**/*"
+    - "vendor/**/*"
+    - "_assets/**/*"   # non-Ruby
+    - "_posts/**/*"    # markdown, not Ruby
+    - "_site/**/.*"    # generated
+    - "Gemfile.lock"
+
+plugins:
+  - rubocop-performance
+
+Layout/LineLength:
+  Max: 120
+
+Metrics/BlockLength:
+  Exclude:
+    - "_plugins/**/*"  # Often contains Liquid/Ruby interop
+
+Metrics/MethodLength:
+  Max: 15
+
+Style/CollectionMethods:
+  Enabled: true
+  PreferredMethods:
+    inject: inject
+    collect: map
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+# Plugins
+Performance:
+  Enabled: true
