@@ -182,7 +182,6 @@ PLATFORMS
 
 DEPENDENCIES
   autoprefixer-rails
-  ffi (= 1.16.3)
   jekyll
   jekyll-assets
   jekyll-sitemap
