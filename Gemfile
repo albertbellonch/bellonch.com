@@ -2,20 +2,25 @@
 source 'https://rubygems.org'
 
 # Jekyll
-gem "jekyll", "~> 4.0"
+gem 'jekyll'
 
 # Rendering
 gem 'kramdown-parser-gfm'
 
 # Assets
-gem 'jekyll-assets'
-gem 'yui-compressor'
-gem 'uglifier'
 gem 'autoprefixer-rails'
+gem 'jekyll-assets'
+gem 'uglifier'
+gem 'yui-compressor'
+
+# Rubocop
+gem 'rubocop'
+gem 'rubocop-performance'
 
 # Tools
+gem 'benchmark' # originally included by mini_magick, will not be included in Ruby 3.5.0
 gem 'jekyll-sitemap'
 
 # Utils
-# Avoid ffi-1.17.0-x86_64-linux-musl requires rubygems version >= 3.3.22, which is incompatible with the current version...
-gem 'ffi', '1.16.3'
+gem 'logger' # originally included by jekyll, will not be included in Ruby 3.5.0
+gem 'ostruct' # originally included by jekyll-assets, will not be included in Ruby 3.5.0
