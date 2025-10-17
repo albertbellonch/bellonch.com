@@ -47,7 +47,7 @@
             padding-top: 10px;
             text-align: center;
 
-            > svg {
+            >svg {
                 width: 18px;
                 height: 15px;
 
@@ -86,7 +86,7 @@
 
 .footer-heading {
     font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: math.div($spacing-unit, 2);
 }
 
 .contact-list,
@@ -98,43 +98,44 @@
 .footer-col-wrapper {
     font-size: 15px;
     color: $grey-color;
-    margin-left: -$spacing-unit / 2;
+    margin-left: math.div(-$spacing-unit, 2);
     @extend %clearfix;
 }
 
 .footer-col {
     float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+    margin-bottom: math.div($spacing-unit, 2);
+    padding-left: math.div($spacing-unit, 2);
 }
 
 .footer-col-1 {
-    width:         calc(35% - (#{$spacing-unit} / 2));
+    width: calc(35% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-    width:         calc(20% - (#{$spacing-unit} / 2));
+    width: calc(20% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: calc(45% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
+
     .footer-col-1,
     .footer-col-2 {
-        width:         calc(50% - (#{$spacing-unit} / 2));
+        width: calc(50% - (#{$spacing-unit} / 2));
     }
 
     .footer-col-3 {
-        width:         calc(100% - (#{$spacing-unit} / 2));
+        width: calc(100% - (#{$spacing-unit} / 2));
     }
 }
 
 @include media-query($on-palm) {
     .footer-col {
         float: none;
-        width:         calc(100% - (#{$spacing-unit} / 2));
+        width: calc(100% - (#{$spacing-unit} / 2));
     }
 }
 
@@ -155,7 +156,7 @@
     margin-left: 0;
     list-style: none;
 
-    > li {
+    >li {
         margin-bottom: $spacing-unit;
     }
 }
@@ -225,8 +226,8 @@
     display: flex;
     justify-content: space-between;
 
-    a.next{
-      text-align: center;
+    a.next {
+        text-align: center;
     }
 }
 
@@ -234,64 +235,79 @@
  * Home
  */
 
-body.home_page{
+body.home_page {
     animation: bgcolor 7s infinite;
     background-color: #C8F5FF;
-    @media screen and(min-width: 992px){
+
+    @media screen and (min-width: 992px) {
         overflow: hidden;
-        .site-footer{
+
+        .site-footer {
             border: 0;
             position: absolute;
             width: 100%;
             bottom: 0;
         }
-        .footer-wrapper{
+
+        .footer-wrapper {
             width: 37.7%;
         }
     }
 }
+
 @include keyframes(bgcolor) {
-  0% {
-    background-color: #C8F5FF;
-  }
-  50% {
-    background-color: #C8FFED;
-  }
-  100% {
-    background-color: #C8F5FF;
-  }
+    0% {
+        background-color: #C8F5FF;
+    }
+
+    50% {
+        background-color: #C8FFED;
+    }
+
+    100% {
+        background-color: #C8F5FF;
+    }
 }
-.site-header{
+
+.site-header {
     padding: 18px 0;
 }
-.site-title{
+
+.site-title {
     font-family: 'harriet-display';
     font-size: 21px;
     font-weight: 700;
     color: $text-color;
-    &:hover{
+
+    &:hover {
         color: $text-color;
     }
 }
-.home-bg-image{
+
+.home-bg-image {
     position: absolute;
     right: 22%;
     top: 10px;
     opacity: 0.4;
 }
-.main-intro{
+
+.main-intro {
     position: relative;
-    h1{
+
+    h1 {
         max-width: 670px;
         font-weight: 300;
         font-size: 30px;
-        @include media-query($on-palm){
+
+        @include media-query($on-palm) {
             font-size: 24px;
         }
-        a{
-            border-bottom: 1px solid rgba(0,0,0, 0.5);
+
+        a {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.5);
             color: $text-color;
-            img{
+
+            img {
                 position: absolute;
                 top: 150px;
                 left: 530px;
@@ -300,27 +316,31 @@ body.home_page{
                 z-index: -1000;
                 @include transition(all, 0.4s, ease-in-out);
             }
-            @include media-query($on-palm){
-              img{
-                display: none;
-              }
-            }
-            &:hover{
-              @media screen and(min-width: 992px){
-                img{
-                    opacity: 0.7;
+
+            @include media-query($on-palm) {
+                img {
+                    display: none;
                 }
-              }
+            }
+
+            &:hover {
+                @media screen and (min-width: 992px) {
+                    img {
+                        opacity: 0.7;
+                    }
+                }
             }
         }
     }
 }
-.articles-bar{
-    color: rgba(0,0,0, 0.5);
-    border-left: 1px solid rgba(0,0,0, 0.1);
+
+.articles-bar {
+    color: rgba(0, 0, 0, 0.5);
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0 30px;
     @include transition(all, 0.4s, ease-in-out);
-    @media screen and(min-width: 992px){
+
+    @media screen and (min-width: 992px) {
         position: absolute;
         right: 0;
         top: 0;
@@ -329,47 +349,59 @@ body.home_page{
         overflow: scroll;
         z-index: 1;
     }
-    .articles-title a{
-        color: rgba(0,0,0, 0.5);
+
+    .articles-title a {
+        color: rgba(0, 0, 0, 0.5);
     }
-    .post-list{
+
+    .post-list {
         margin-top: 40px;
     }
-    .post{
-        border-bottom: 1px solid rgba(0,0,0, 0.1);
+
+    .post {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
         margin-bottom: 0;
         @include transition(all, 0.2s, ease-in-out);
-        a{
-            color: rgba(0,0,0, 0.5);
-            &:hover{
+
+        a {
+            color: rgba(0, 0, 0, 0.5);
+
+            &:hover {
                 color: $text-color;
             }
         }
     }
-    .post-title{
+
+    .post-title {
         font-size: 21px;
         line-height: 1.4;
     }
-    .more-posts{
+
+    .more-posts {
         padding-bottom: 30px;
     }
-    .more-link{
+
+    .more-link {
         font-size: 42px;
         line-height: 10px;
         font-family: 'harriet-display';
-        color: rgba(0,0,0, 0.2);
-        &:hover{
+        color: rgba(0, 0, 0, 0.2);
+
+        &:hover {
             color: $text-color;
         }
     }
-    &:hover{
+
+    &:hover {
         background-color: white;
         border-color: transparent;
-        .articles-title a{
+
+        .articles-title a {
             color: $text-color;
         }
     }
-    .articles-title a{
+
+    .articles-title a {
         display: block;
         font-size: 21px;
         font-weight: 700;
@@ -377,58 +409,72 @@ body.home_page{
         @include transition(all, 0.2s, ease-in-out);
     }
 }
-.articles{
-    .post-list{
+
+.articles {
+    .post-list {
         max-width: 670px;
     }
-    .post-excerpt{
-        *{
+
+    .post-excerpt {
+        * {
             font-family: 'akzidenz-grotesk' !important;
             font-weight: normal;
         }
     }
 }
-footer{
-    color: transparentize($text-color, 0.5);
-    a{
-        color: transparentize($text-color, 0.5);
-        &:hover{
+
+footer {
+    color: color.scale($text-color, $alpha: -50%);
+
+    a {
+        color: color.scale($text-color, $alpha: -50%);
+
+        &:hover {
             color: $text-color;
         }
     }
-    .social-media-list{
+
+    .social-media-list {
         margin-bottom: 0;
-        .list-item{
+
+        .list-item {
             display: inline-block;
             padding-right: 5px;
-            &.designer-coder{
+
+            &.designer-coder {
                 float: right;
-                a{
-                    border-bottom: 1px solid rgba(0,0,0, 0.2);
+
+                a {
+                    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
                     padding-bottom: 3px;
                 }
             }
         }
-        .icon > svg{
+
+        .icon>svg {
             width: 24px;
             height: 24px;
-            path{
-                fill: rgba(0,0,0, 0.5);
+
+            path {
+                fill: rgba(0, 0, 0, 0.5);
                 @include transition(all, 0.2s, ease-in-out);
             }
-            &:hover{
-                path{
-                    fill: rgba(0,0,0, 0.8);
+
+            &:hover {
+                path {
+                    fill: rgba(0, 0, 0, 0.8);
                 }
             }
         }
-        .contact-email{
+
+        .contact-email {
             margin-left: 15px;
         }
     }
 }
-.post-list{
-    .post-link{
+
+.post-list {
+    .post-link {
         color: $text-color;
     }
 }

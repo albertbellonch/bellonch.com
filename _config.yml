@@ -11,15 +11,14 @@ github_username: albertbellonch
 # Build settings
 markdown: kramdown
 
+# Plugins
+plugins:
+  - jekyll-sitemap
+
 # Assets
-assets:
-  sources:
-    - _assets/fonts
-    - _assets/images
-    - _assets/javascripts
-    - _assets/stylesheets
-  js_compressor: uglifier
-  css_compressor: yui
+sass:
+    sass_dir: _sass
+    style: compressed
 
 # Other
 mode: development

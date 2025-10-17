@@ -31,7 +31,7 @@ Love is a band founded in the mid-sixties by Arthur Lee, one of the most importa
 
 After graduating in the early 60s, he rejected a sports scholarship, pursued a musical career starting with The LAGs and, later, with Love (initially, called Grass Roots). Already living in Los Angeles for a while, the band got to play at several clubs in Sunset Strip and Hollywood and released two albums in 1966: the eponymous *Love* and *Da Capo*.
 
-{% image posts/a-house-is-not-a-motel/band.jpg %}
+<img src="{{ '/assets/images/posts/a-house-is-not-a-motel/band.jpg' | relative_url }}" alt="Band">
 
 ### Forever Changes
 
@@ -47,7 +47,7 @@ During the following two decades, several plans to reunite the band were unsucce
 
 ### At my house I've got no shackles...
 
-{% image posts/a-house-is-not-a-motel/album.jpg class="album" %}
+<img src="{{ '/assets/images/posts/a-house-is-not-a-motel/album.jpg' | relative_url }}" alt="Album" class="album">
 
 * *Released: November 1967*
 * *Album: Forever Changes*

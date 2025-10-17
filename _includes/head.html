@@ -1,13 +1,13 @@
 <head>
   {% if site.mode == 'production' %}
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-S0LPZSR28D"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {dataLayer.push(arguments);}
-      gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-S0LPZSR28D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-      gtag('config', 'G-S0LPZSR28D');
-    </script>
+    gtag('config', 'G-S0LPZSR28D');
+  </script>
   {% endif %}
 
   <meta charset="utf-8">
@@ -17,7 +17,8 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{{ page.description }}">
 
-  {% stylesheet application %}
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
-  <link rel="shortcut icon" type="image/png" href="{{ "common/favicon.ico" | asset_path }}"/>
+  <link rel="stylesheet" href="{{ '/application.css' | relative_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml" | prepend:
+    site.baseurl | prepend: site.url }}" />
+  <link rel="shortcut icon" type="image/png" href="{{ '/assets/images/common/favicon.ico' | relative_url }}" />
 </head>
