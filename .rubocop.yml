@@ -4,12 +4,9 @@ AllCops:
   NewCops: enable
   Exclude:
     - "assets/**/*"   # non-Ruby
-    - "bin/**/*"
     - "node_modules/**/*"
-    - "vendor/**/*"
-    - "_site/**/*"
     - "_posts/**/*"    # markdown, not Ruby
-    - "_site/**/.*"    # generated
+    - "_site/**/*"    # generated
     - "Gemfile.lock"
 
 plugins:

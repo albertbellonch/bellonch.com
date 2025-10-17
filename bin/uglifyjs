@@ -3,7 +3,7 @@
 require 'uglifier'
 
 # Read from stdin
-input = STDIN.read
+input = $stdin.read
 
 # Minify using the uglifier gem
 begin
