@@ -1,3 +1,5 @@
-//= require vendor/jquery-2.1.3
-//= require vendor/jquery.smoothState
-//= require application/main
+---
+---
+{% include_relative vendor/jquery-2.1.3.js %}
+{% include_relative vendor/jquery.smoothState.js %}
+{% include_relative application/main.js %}
