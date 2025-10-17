@@ -53,7 +53,7 @@ After his hugely successful late seventies and the whole eigthies, and maybe not
 
 In the beginning of this decade I already knew Giorgio Moroder and was a huge follower of his music. This is why, after reading in the news that he was collaborating with [Daft Punk](/face-to-face-short-circuit-by-daft-punk) in their next album, I was shocked and very, very excited to *live* music from Giorgio Moroder when it was released, not decades after. And I clearly remember the release of *Random Access Memories*: I sat down in the sofa, closed my eyes and listen to the 9-minute *Giorgio by Moroder* end to end. I was amazed.
 
-Apart from that (and quite thanks to it), Moroder's career was reactivated immediately, releasing the soundtrack for Google's game experiment [Racer](g.co/racer){:target="_blank"} and, after 23 years since the last one, another album: *Déjà Vu* (2015), with stars like Sia or Britney Spears. He now DJs live (something [he did not like in the past](https://www.youtube.com/watch?v=WmNH1e8yqdY){:target="_blank"}) in gigs like [this one](https://www.youtube.com/watch?v=qYonaSnV534){:target="_blank"} in *Deep Space* (NYC) for the Red Bull Music Academy Radio.
+Apart from that (and quite thanks to it), Moroder's career was reactivated immediately, releasing the soundtrack for Google's game experiment [Racer](https://g.co/racer){:target="_blank"} and, after 23 years since the last one, another album: *Déjà Vu* (2015), with stars like Sia or Britney Spears. He now DJs live (something [he did not like in the past](https://www.youtube.com/watch?v=WmNH1e8yqdY){:target="_blank"}) in gigs like [this one](https://www.youtube.com/watch?v=qYonaSnV534){:target="_blank"} in *Deep Space* (NYC) for the Red Bull Music Academy Radio.
 
 ### Post scriptum
 
