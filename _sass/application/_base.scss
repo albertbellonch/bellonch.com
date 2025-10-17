@@ -3,33 +3,52 @@
 
 // Our variables
 $base-font-family: 'akzidenz-grotesk', Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.75;
+$base-font-size: 16px;
+$small-font-size: $base-font-size * 0.75;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+$spacing-unit: 30px;
 
-$text-color:       #111;
+
+@use "sass:color";
+@use "sass:math";
+@use "mixins" as mixins;
+
+$text-color: #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color: #2a7ae2;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-$link-color:       #ce0000;
+
+$grey-color: #828282;
+$grey-color-light: color.scale($grey-color, $lightness: 40%);
+$grey-color-dark: color.scale($grey-color, $lightness: -25%);
+$link-color: #ce0000;
 
 // Width of the content area
-$content-width:    800px;
+$content-width: 800px;
 
-$on-palm:          600px;
-$on-laptop:        800px;
+$on-palm: 600px;
+$on-laptop: 800px;
 
 /**
  * Reset some basic elements
  */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl,
+dd,
+ol,
+ul,
+figure {
     margin: 0;
     padding: 0;
 }
@@ -53,11 +72,21 @@ body {
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+ul,
+ol,
+dl,
+figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: math.div($spacing-unit, 2);
 }
 
 
@@ -75,7 +104,7 @@ img {
 /**
  * Figures
  */
-figure > img {
+figure>img {
     display: block;
 }
 
@@ -88,14 +117,16 @@ figcaption {
 /**
  * Lists
  */
-ul, ol {
+ul,
+ol {
     margin-left: $spacing-unit;
 }
 
 li {
-    > ul,
-    > ol {
-         margin-bottom: 0;
+
+    >ul,
+    >ol {
+        margin-bottom: 0;
     }
 }
 
@@ -104,7 +135,12 @@ li {
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'harriet-display';
 }
 
@@ -116,7 +152,8 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: $link-color;
     text-decoration: none;
-    @include transition(all, 0.4s, ease-in-out);
+    @include mixins.transition(all, 0.4s, ease-in-out);
+
     &:hover {
         color: $link-color;
     }
@@ -130,7 +167,7 @@ a {
 blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
-    padding-left: $spacing-unit / 2;
+    padding-left: math.div($spacing-unit, 2);
     font-size: 18px;
     letter-spacing: -1px;
     font-style: italic;
@@ -161,7 +198,7 @@ pre {
     padding: 8px 12px;
     overflow-x: scroll;
 
-    > code {
+    >code {
         border: 0;
         padding-right: 0;
         padding-left: 0;
@@ -180,32 +217,36 @@ pre {
     padding-left: $spacing-unit;
     @extend %clearfix;
 
-    @include media-query($on-laptop) {
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
+    @include mixins.media-query($on-laptop) {
+        max-width: calc(#{$content-width} - (#{$spacing-unit}));
+        padding-right: math.div($spacing-unit, 2);
+        padding-left: math.div($spacing-unit, 2);
     }
 }
-@media screen and (min-width: 900px){
-    .post{
+
+@media screen and (min-width: 900px) {
+    .post {
         max-width: 700px;
         margin-left: auto;
         margin-right: auto;
         font-size: 18px;
-        img{
+
+        img {
             margin-left: -15%;
             min-width: 130%;
             margin-top: 20px;
             margin-bottom: 20px;
-            &.screenshot{
-              margin-left: auto;
-              min-width: 100%;
-              margin-top: -20px;
-              margin-bottom: -40px;
+
+            &.screenshot {
+                margin-left: auto;
+                min-width: 100%;
+                margin-top: -20px;
+                margin-bottom: -40px;
             }
-            &.album{
-              margin-left: 15%;
-              min-width: 70%;
+
+            &.album {
+                margin-left: 15%;
+                min-width: 70%;
             }
         }
     }
@@ -232,7 +273,7 @@ pre {
  */
 .icon {
 
-    > svg {
+    >svg {
         display: inline-block;
         width: 16px;
         height: 16px;
@@ -248,18 +289,18 @@ pre {
  * YouTube iframes
  */
 div.youtube-wrapper {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
 }
 
 iframe.youtube-video {
-  display: block;
-  margin: 0 auto 20px auto;
-  left:0;
-  top:0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
+    display: block;
+    margin: 0 auto 20px auto;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }

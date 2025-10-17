@@ -11,19 +11,19 @@ github_username: albertbellonch
 # Build settings
 markdown: kramdown
 
-# Gems
+# Plugins
 plugins:
+  - jekyll/minibundle
   - jekyll-sitemap
 
 # Assets
-assets:
-  sources:
-    - _assets/fonts
-    - _assets/images
-    - _assets/javascripts
-    - _assets/stylesheets
-  js_compressor: uglifier
-  css_compressor: yui
+minibundle:
+  minifier_commands:
+    js: bin/uglifyjs
+
+# Exclude directories from processing and watching
+exclude:
+  - _tmp/
 
 # Other
 mode: production

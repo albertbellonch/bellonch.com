@@ -3,13 +3,10 @@ AllCops:
   TargetRubyVersion: 3.4
   NewCops: enable
   Exclude:
-    - "bin/**/*"
+    - "assets/**/*"   # non-Ruby
     - "node_modules/**/*"
-    - "_site/**/*"
-    - "vendor/**/*"
-    - "_assets/**/*"   # non-Ruby
     - "_posts/**/*"    # markdown, not Ruby
-    - "_site/**/.*"    # generated
+    - "_site/**/*"    # generated
     - "Gemfile.lock"
 
 plugins:

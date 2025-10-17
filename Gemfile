@@ -8,10 +8,9 @@ gem 'jekyll'
 gem 'kramdown-parser-gfm'
 
 # Assets
-gem 'autoprefixer-rails'
-gem 'jekyll-assets'
+gem 'jekyll-minibundle'
+gem 'sass-embedded'
 gem 'uglifier'
-gem 'yui-compressor'
 
 # Rubocop
 gem 'rubocop'

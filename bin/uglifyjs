@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+
+require 'uglifier'
+
+# Read from stdin
+input = $stdin.read
+
+# Minify using the uglifier gem
+begin
+  minified = Uglifier.new.compile(input)
+  puts minified
+rescue StandardError => e
+  warn "Uglify error: #{e.message}"
+  exit 1
+end
