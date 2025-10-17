@@ -9,6 +9,8 @@ gem 'kramdown-parser-gfm'
 
 # Assets
 gem 'autoprefixer-rails' # TODO: what to do here
+gem 'jekyll-minibundle'
+gem 'uglifier'
 
 # Rubocop
 gem 'rubocop'

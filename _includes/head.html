@@ -22,5 +22,14 @@
     site.baseurl | prepend: site.url }}" />
   <link rel="shortcut icon" type="image/png" href="{{ '/assets/images/common/favicon.ico' | relative_url }}" />
 
-  <script src="{{ '/assets/javascripts/application.js' | relative_url }}"></script>
+  {% minibundle js %}
+  source_dir: assets/javascripts
+  destination_path: assets/application
+  baseurl: '{{ site.baseurl }}/'
+  assets:
+  - vendor/jquery-2.1.3
+  - vendor/jquery.smoothState
+  - application/main
+  async: true
+  {% endminibundle %}
 </head>

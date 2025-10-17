@@ -13,12 +13,17 @@ markdown: kramdown
 
 # Plugins
 plugins:
+  - jekyll/minibundle
   - jekyll-sitemap
 
 # Assets
+minibundle:
+  minifier_commands:
+    js: bin/uglifyjs
+
 sass:
-    sass_dir: _sass
-    style: compressed
+  sass_dir: _sass
+  style: compressed
 
 # Other
 mode: development
