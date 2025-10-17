@@ -1,3 +1,8 @@
+@use "sass:color";
+@use "sass:math";
+@use "mixins" as mixins;
+@use "base" as base;
+
 /**
  * Site header
  */
@@ -20,8 +25,8 @@
     }
 
     .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
+        color: base.$text-color;
+        line-height: base.$base-line-height;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
@@ -29,12 +34,12 @@
         }
     }
 
-    @include media-query($on-palm) {
+    @include mixins.media-query(base.$on-palm) {
         position: absolute;
         top: 9px;
         right: 30px;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        background-color: base.$background-color;
+        border: 1px solid base.$grey-color-light;
         border-radius: 5px;
         text-align: right;
 
@@ -52,7 +57,7 @@
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: base.$grey-color-dark;
                 }
             }
         }
@@ -80,13 +85,13 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+    border-top: 1px solid base.$grey-color-light;
+    padding: base.$spacing-unit 0;
 }
 
 .footer-heading {
     font-size: 18px;
-    margin-bottom: math.div($spacing-unit, 2);
+    margin-bottom: math.div(base.$spacing-unit, 2);
 }
 
 .contact-list,
@@ -97,45 +102,45 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
-    margin-left: math.div(-$spacing-unit, 2);
+    color: base.$grey-color;
+    margin-left: math.div(0 - base.$spacing-unit, 2);
     @extend %clearfix;
 }
 
 .footer-col {
     float: left;
-    margin-bottom: math.div($spacing-unit, 2);
-    padding-left: math.div($spacing-unit, 2);
+    margin-bottom: math.div(base.$spacing-unit, 2);
+    padding-left: math.div(base.$spacing-unit, 2);
 }
 
 .footer-col-1 {
-    width: calc(35% - (#{$spacing-unit} / 2));
+    width: calc(35% - (#{base.$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-    width: calc(20% - (#{$spacing-unit} / 2));
+    width: calc(20% - (#{base.$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-    width: calc(45% - (#{$spacing-unit} / 2));
+    width: calc(45% - (#{base.$spacing-unit} / 2));
 }
 
-@include media-query($on-laptop) {
+@include mixins.media-query(base.$on-laptop) {
 
     .footer-col-1,
     .footer-col-2 {
-        width: calc(50% - (#{$spacing-unit} / 2));
+        width: calc(50% - (#{base.$spacing-unit} / 2));
     }
 
     .footer-col-3 {
-        width: calc(100% - (#{$spacing-unit} / 2));
+        width: calc(100% - (#{base.$spacing-unit} / 2));
     }
 }
 
-@include media-query($on-palm) {
+@include mixins.media-query(base.$on-palm) {
     .footer-col {
         float: none;
-        width: calc(100% - (#{$spacing-unit} / 2));
+        width: calc(100% - (#{base.$spacing-unit} / 2));
     }
 }
 
@@ -145,7 +150,7 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: base.$spacing-unit 0;
 }
 
 .page-heading {
@@ -157,13 +162,13 @@
     list-style: none;
 
     >li {
-        margin-bottom: $spacing-unit;
+        margin-bottom: base.$spacing-unit;
     }
 }
 
 .post-meta {
     display: flex;
-    font-size: $small-font-size;
+    font-size: base.$small-font-size;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
@@ -181,7 +186,7 @@
  * Posts
  */
 .post-header {
-    margin-bottom: $spacing-unit;
+    margin-bottom: base.$spacing-unit;
 }
 
 .post-title {
@@ -189,18 +194,18 @@
     letter-spacing: -0.5px;
     line-height: 1;
 
-    @include media-query($on-laptop) {
+    @include mixins.media-query(base.$on-laptop) {
         font-size: 36px;
     }
 }
 
 .post-content {
-    margin-bottom: $spacing-unit;
+    margin-bottom: base.$spacing-unit;
 
     h2 {
         font-size: 32px;
 
-        @include media-query($on-laptop) {
+        @include mixins.media-query(base.$on-laptop) {
             font-size: 28px;
         }
     }
@@ -208,7 +213,7 @@
     h3 {
         font-size: 26px;
 
-        @include media-query($on-laptop) {
+        @include mixins.media-query(base.$on-laptop) {
             font-size: 22px;
         }
     }
@@ -216,7 +221,7 @@
     h4 {
         font-size: 20px;
 
-        @include media-query($on-laptop) {
+        @include mixins.media-query(base.$on-laptop) {
             font-size: 18px;
         }
     }
@@ -255,7 +260,7 @@ body.home_page {
     }
 }
 
-@include keyframes(bgcolor) {
+@include mixins.keyframes(bgcolor) {
     0% {
         background-color: #C8F5FF;
     }
@@ -277,10 +282,10 @@ body.home_page {
     font-family: 'harriet-display';
     font-size: 21px;
     font-weight: 700;
-    color: $text-color;
+    color: base.$text-color;
 
     &:hover {
-        color: $text-color;
+        color: base.$text-color;
     }
 }
 
@@ -299,13 +304,13 @@ body.home_page {
         font-weight: 300;
         font-size: 30px;
 
-        @include media-query($on-palm) {
+        @include mixins.media-query(base.$on-palm) {
             font-size: 24px;
         }
 
         a {
             border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-            color: $text-color;
+            color: base.$text-color;
 
             img {
                 position: absolute;
@@ -314,10 +319,10 @@ body.home_page {
                 opacity: 0;
                 width: 500px;
                 z-index: -1000;
-                @include transition(all, 0.4s, ease-in-out);
+                @include mixins.transition(all, 0.4s, ease-in-out);
             }
 
-            @include media-query($on-palm) {
+            @include mixins.media-query(base.$on-palm) {
                 img {
                     display: none;
                 }
@@ -338,7 +343,7 @@ body.home_page {
     color: rgba(0, 0, 0, 0.5);
     border-left: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0 30px;
-    @include transition(all, 0.4s, ease-in-out);
+    @include mixins.transition(all, 0.4s, ease-in-out);
 
     @media screen and (min-width: 992px) {
         position: absolute;
@@ -361,13 +366,13 @@ body.home_page {
     .post {
         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
         margin-bottom: 0;
-        @include transition(all, 0.2s, ease-in-out);
+        @include mixins.transition(all, 0.2s, ease-in-out);
 
         a {
             color: rgba(0, 0, 0, 0.5);
 
             &:hover {
-                color: $text-color;
+                color: base.$text-color;
             }
         }
     }
@@ -388,7 +393,7 @@ body.home_page {
         color: rgba(0, 0, 0, 0.2);
 
         &:hover {
-            color: $text-color;
+            color: base.$text-color;
         }
     }
 
@@ -397,7 +402,7 @@ body.home_page {
         border-color: transparent;
 
         .articles-title a {
-            color: $text-color;
+            color: base.$text-color;
         }
     }
 
@@ -406,7 +411,7 @@ body.home_page {
         font-size: 21px;
         font-weight: 700;
         padding: 18px 0;
-        @include transition(all, 0.2s, ease-in-out);
+        @include mixins.transition(all, 0.2s, ease-in-out);
     }
 }
 
@@ -424,13 +429,13 @@ body.home_page {
 }
 
 footer {
-    color: color.scale($text-color, $alpha: -50%);
+    color: color.scale(base.$text-color, $alpha: -50%);
 
     a {
-        color: color.scale($text-color, $alpha: -50%);
+        color: color.scale(base.$text-color, $alpha: -50%);
 
         &:hover {
-            color: $text-color;
+            color: base.$text-color;
         }
     }
 
@@ -457,7 +462,7 @@ footer {
 
             path {
                 fill: rgba(0, 0, 0, 0.5);
-                @include transition(all, 0.2s, ease-in-out);
+                @include mixins.transition(all, 0.2s, ease-in-out);
             }
 
             &:hover {
@@ -475,6 +480,6 @@ footer {
 
 .post-list {
     .post-link {
-        color: $text-color;
+        color: base.$text-color;
     }
 }

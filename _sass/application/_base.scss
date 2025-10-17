@@ -10,6 +10,10 @@ $base-line-height: 1.5;
 $spacing-unit: 30px;
 
 
+@use "sass:color";
+@use "sass:math";
+@use "mixins" as mixins;
+
 $text-color: #111;
 $background-color: #fdfdfd;
 $brand-color: #2a7ae2;
@@ -148,7 +152,7 @@ h6 {
 a {
     color: $link-color;
     text-decoration: none;
-    @include transition(all, 0.4s, ease-in-out);
+    @include mixins.transition(all, 0.4s, ease-in-out);
 
     &:hover {
         color: $link-color;
@@ -213,7 +217,7 @@ pre {
     padding-left: $spacing-unit;
     @extend %clearfix;
 
-    @include media-query($on-laptop) {
+    @include mixins.media-query($on-laptop) {
         max-width: calc(#{$content-width} - (#{$spacing-unit}));
         padding-right: math.div($spacing-unit, 2);
         padding-left: math.div($spacing-unit, 2);

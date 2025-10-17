@@ -1,11 +1,9 @@
 ---
 ---
-
 @use "sass:color";
 @use "sass:math";
-
-@import "application/mixins",
-"application/fonts",
-"application/base",
-"application/layout",
-"vendor/syntax-highlighting";
+@use "application/mixins" as mixins;
+@use "application/fonts";
+@use "application/base" as base;
+@use "application/layout" as layout;
+@use "vendor/syntax-highlighting";
