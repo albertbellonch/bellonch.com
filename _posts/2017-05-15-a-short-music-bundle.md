@@ -25,7 +25,7 @@ Something had *clicked* inside me, and I started to devour music on my own. My f
 
 ### The Wall
 
-<img src="{{ '/assets/images/posts/short-music-bundle/wall-albums.jpg' | relative_url }}" alt="Wall albums">
+<img src="{% ministamp _site/assets/images/posts/short-music-bundle/wall-albums.jpg /assets/images/posts/short-music-bundle/wall-albums.jpg %}" alt="Wall albums">
 
 Just a few years ago, I wanted to decorate the white walls of my new apartment and, amongst other things, I hanged a grid of meaningful albums to me. But I had to think which ones, which resulted in me spending weeks trying to decide which twelve albums would I print and leave in my wall *forever*, constantly updating a list I had in my phone. The result is the picture above, if you scroll a little. Funnily enough, though, I recently printed four more and I have to update my wall, which made me think.
 

@@ -23,7 +23,7 @@ Giorgio Moroder, now 77, was born in 1940 in Urtijëi (Ortisei, in Italian), a s
 
 Eventually, he started gaining notoriety by his late 20s and started working profusely in studios, apart from releasing his own records. Only in the 1969-1973 he published up to five, the most notorious of them being *Son of My Father* (1972), a collaboration (one of many) with Pete Bellotte. He had been using synthesizers and vocoders (which then were truly futuristic instruments) for a while, and went using more and more in his albums.
 
-<img src="{{ '/assets/images/posts/chase/author.jpg' | relative_url }}" alt="Author">
+<img src="{% ministamp _site/assets/images/posts/chase/author.jpg /assets/images/posts/chase/author.jpg %}" alt="Author">
 
 In this direction was *From Here To Eternity* (1977), the first hit ever produced entirely on a synthesizer backing track, which was quickly followed a few weeks after by the adored and well-known disco hit [*I feel love*](https://www.youtube.com/watch?v=B2qI6UDD2uQ){:target="_blank"}, sang by Donna Summer and produced by Moroder. The following year, to complete this trio of hits, our beloved *Chase* was released and ended up winning an Academy Award for Best Original Score. His first Oscar.
 
@@ -39,7 +39,7 @@ From this decade, he won his other two Academy Awards, for Best Original Song: *
 
 Regarding artists with which he collaborated, the list is very long too. The most obvious is Donna Summer, for which he produced more than half of her albums: up until nine from 1974 to 1981. Together (see below), they would release *I Feel Love*, often described as the start of electronic dance music, as well as other singles as *Love to Love You Baby* ([famous for the moaning and its 17 minute version](https://www.youtube.com/watch?v=V5AztWseIdU){:target="_blank"}), *Hot Stuff*, *On the Radio* or *Last Dance*. Thanks to this, they even got honorific nicknames: *Father of Disco* for Moroder, and *Queen of Disco* for Summer.
 
-<img src="{{ '/assets/images/posts/chase/withdonna.png' | relative_url }}" alt="With Donna">
+<img src="{% ministamp _site/assets/images/posts/chase/withdonna.png /assets/images/posts/chase/withdonna.png %}" alt="With Donna">
 
 The list of related artists continues with Blondie and their flagship *Call Me*, Philip Oakey's *Together in Electric Dreams* (released in an album together with Giorgio Moroder in 1985), Kylie Minogue, Janet Jackson or Bonnie Tyler. Plus, he had established a pioneering recording studio (Musicland Studios) in Munich in the late sixties, which was used by bands like The Rolling Stones, Led Zeppelin or Queen.
 
@@ -61,7 +61,7 @@ On the summer of 2019, I was very lucky to finally see him live. He came to Barc
 
 ### Let's cut...
 
-<img src="{{ '/assets/images/posts/chase/cover.jpg' | relative_url }}" alt="Cover" class="album">
+<img src="{% ministamp _site/assets/images/posts/chase/cover.jpg /assets/images/posts/chase/cover.jpg %}" alt="Cover" class="album">
 
 * *Released: 1978*
 * *Single*

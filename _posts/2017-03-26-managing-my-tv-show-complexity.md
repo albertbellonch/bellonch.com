@@ -17,7 +17,7 @@ I started watching TV shows by the end of 2009, a few months after starting [my 
 
 Dexter was one of the first series I started, and I was thrilled and awed by the quality that, up until that moment, I only expected in movies. I devoured the first season in a few days, convinced my sister (back in my hometown) to watch it too, and even a couple years later we adopted a fantastic dog that we named Dexter. You can see him sleeping just below.
 
-<img src="{{ '/assets/images/posts/managing-tv-shows/dexter.jpeg' | relative_url }}" alt="Dexter">
+<img src="{% ministamp _site/assets/images/posts/managing-tv-shows/dexter.jpeg /assets/images/posts/managing-tv-shows/dexter.jpeg %}" alt="Dexter">
 
 Apart from the charismatic serial killer from Miami, I remember binge watching great comedies like the American adaptation of The Office and How I Met Your Mother and, like many others, joining the Lost crazyness. The show was in its final season and I pulled an *heroic* marathon through all six seasons until I could watch the series finale live, at 6 in the morning, with some Erasmus friends. I even live commented the entire episode with my sister through Gmail Chat.
 
@@ -36,7 +36,7 @@ The first, most difficult thing was to remember all the shows I started in my li
 
 I will never be thankful enough to have a tool like that (below you can see how my end of March looks like). From there, I had the name of 70-odd TV shows that I started at some point in my life. Once this was done, a few more came to my mind and the hardest part was over.
 
-<img src="{{ '/assets/images/posts/managing-tv-shows/pogdesign-tv-calendar.png' | relative_url }}" alt="PogDesign TV Calendar">
+<img src="{% ministamp _site/assets/images/posts/managing-tv-shows/pogdesign-tv-calendar.png /assets/images/posts/managing-tv-shows/pogdesign-tv-calendar.png %}" alt="PogDesign TV Calendar">
 
 ### Making it interesting
 
@@ -52,7 +52,7 @@ The result was [this comprehensive list of the TV shows I have watched](https://
 
 ### Conclusions
 
-<img src="{{ '/assets/images/posts/managing-tv-shows/joffrey-getting-poisoned.jpg' | relative_url }}" alt="Joffrey getting poisoned">
+<img src="{% ministamp _site/assets/images/posts/managing-tv-shows/joffrey-getting-poisoned.jpg /assets/images/posts/managing-tv-shows/joffrey-getting-poisoned.jpg %}" alt="Joffrey getting poisoned">
 
 First one is just stating the obvious: I watch a lot of TV shows. I really do. I knew when i used [a tool that helps calculate all time spent watching them a few years ago](http://tiii.me/){:target="_blank"}, and I was already shocked. I will never make that mistake again.
 

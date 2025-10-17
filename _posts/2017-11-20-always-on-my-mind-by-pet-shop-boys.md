@@ -21,7 +21,7 @@ I was most probably introduced in the early 2000s to Pet Shop Boys by my best fr
 
 One of the first concerts I have been to was by them, within the Asics Music Festival in Barcelona in 2007, where I went to with my sister, also a huge fan. I remember anxiously waiting to hear them for five or six hours, as other bands played first, until I saw one of my favorite bands ever live. It was not the only time, though: quickly after releasing *Yes*, from 2009, they came to Barcelona for their Pandemonium Tour and, again with my sister, I could enjoy them for more than a couple hours. Just like below.
 
-<img src="{{ '/assets/images/posts/always-on-my-mind/pandemonium.jpg' | relative_url }}" alt="Pandemonium">
+<img src="{% ministamp _site/assets/images/posts/always-on-my-mind/pandemonium.jpg /assets/images/posts/always-on-my-mind/pandemonium.jpg %}" alt="Pandemonium">
 
 Let's get back to the song, though.
 
@@ -37,7 +37,7 @@ The band began almost a decade after Elvis' cover, briefly after Neil Tennant (t
 
 Soon after, in 1983, they got a record deal with producer Bobby Orlando after Tennant met him while he was interviewing The Police. For a year, they recorded and released more than ten singles, including widely know songs as *West End Girls*, *Rent* or *It's A Sin* and eventually, in 1985, they moved to the London-based Parlophone label. By early 1986, *West End Girls* started reaching top 1 everywhere, including the US and Canada, and ended up being the band's most heard song ever.
 
-<img src="{{ '/assets/images/posts/always-on-my-mind/duo.jpg' | relative_url }}" alt="Duo">
+<img src="{% ministamp _site/assets/images/posts/always-on-my-mind/duo.jpg /assets/images/posts/always-on-my-mind/duo.jpg %}" alt="Duo">
 
 ### Please
 
@@ -53,7 +53,7 @@ Their next work *Bilingual*, from 1996, was well received too but marked the beg
 
 ### Maybe I didn't treat you...
 
-<img src="{{ '/assets/images/posts/always-on-my-mind/cover.jpg' | relative_url }}" alt="Cover" class="album">
+<img src="{% ministamp _site/assets/images/posts/always-on-my-mind/cover.jpg /assets/images/posts/always-on-my-mind/cover.jpg %}" alt="Cover" class="album">
 
 * *Released: November 1987*
 * *Single*
