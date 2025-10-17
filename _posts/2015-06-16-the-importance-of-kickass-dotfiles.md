@@ -41,7 +41,7 @@ Anyway, it's entirely up to you! Just two examples from my dotfiles:
 
 And all in all, my terminal looks like this...
 
-<img src="{% ministamp _site/assets/images/posts/dotfiles/albertbellonch.png /assets/images/posts/dotfiles/albertbellonch.png %}" alt="Screenshot" class="screenshot">
+<img src="{% ministamp assets/images/posts/dotfiles/albertbellonch.png /assets/images/posts/dotfiles/albertbellonch.png %}" alt="Screenshot" class="screenshot">
 
 ...so I guess you now know which one is my favorite animal.
 

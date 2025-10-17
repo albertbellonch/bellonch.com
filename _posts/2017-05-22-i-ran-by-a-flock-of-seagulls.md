@@ -23,7 +23,7 @@ The thing is that all *GTAs* feature a crazy good soundtrack. Imitating a bunch 
 
 ### The Flock
 
-<img src="{% ministamp _site/assets/images/posts/i-ran-a-flock-of-seagulls/band.jpg /assets/images/posts/i-ran-a-flock-of-seagulls/band.jpg %}" alt="Band">
+<img src="{% ministamp assets/images/posts/i-ran-a-flock-of-seagulls/band.jpg /assets/images/posts/i-ran-a-flock-of-seagulls/band.jpg %}" alt="Band">
 
 The band behind it was created in the very beginning of the eigthies, in 1980, in the British city of Liverpool. The initial founder, Mike Score (lead vocalist & keyboardist), was joined by Frank Maudsley (bass), Ali Score (drums) and Paul Reynolds (guitar) to form the classic, most known line-up. Soon, they started to release up to four singles (including *I Ran*, the third one), a few EPs and, eventually in 1982, their debut and most commercially successful, eponymous full album, *A Flock of Seagulls*, which included the song.
 
@@ -33,7 +33,7 @@ From there, A Flock of Seagulls never got back to the stardom it had once reache
 
 ### And I Ran
 
-<img src="{% ministamp _site/assets/images/posts/i-ran-a-flock-of-seagulls/album.jpg /assets/images/posts/i-ran-a-flock-of-seagulls/album.jpg %}" alt="Album" class="album">
+<img src="{% ministamp assets/images/posts/i-ran-a-flock-of-seagulls/album.jpg /assets/images/posts/i-ran-a-flock-of-seagulls/album.jpg %}" alt="Album" class="album">
 
 * *Released: April 1982*
 * *Album: A Flock of Seagulls*
