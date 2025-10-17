@@ -9,6 +9,7 @@ gem 'kramdown-parser-gfm'
 
 # Assets
 gem 'jekyll-minibundle'
+gem 'sass-embedded'
 gem 'uglifier'
 
 # Rubocop

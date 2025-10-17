@@ -17,7 +17,7 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{{ page.description }}">
 
-  <link rel="stylesheet" href="{% ministamp _site/application.css application.css %}">
+  <link rel="stylesheet" href="{% ministamp _tmp/application.css assets/application.css %}">
 
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml" | prepend:
     site.baseurl | prepend: site.url }}" />

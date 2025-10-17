@@ -21,9 +21,9 @@ minibundle:
   minifier_commands:
     js: bin/uglifyjs
 
-sass:
-  sass_dir: _sass
-  style: compressed
+# Exclude directories from processing and watching
+exclude:
+  - _tmp/
 
 # Other
 mode: development
